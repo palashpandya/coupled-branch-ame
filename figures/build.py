@@ -41,7 +41,11 @@ assert np.max(np.abs(values.imag))<1e-10
 r = values.real/k
 assert np.all(r[~zero]>0) and abs(r.mean()-1)<1e-12
 r[zero]=0
-fig,ax=plt.subplots(figsize=(3.4,2.7))
+fig=plt.figure(figsize=(3.4,2.05))
+# Fixed geometry gives the image and its color bar identical physical heights.
+height=.65*3.4*(k/p)/2.05
+ax=fig.add_axes([.14,.23,.65,height])
+cax=fig.add_axes([.82,.23,.032,height])
 im=ax.imshow(np.ma.array(r,mask=zero),cmap='cividis',norm=Normalize(0,k),
              interpolation='none',aspect='equal',origin='upper')
 y,x=np.where(zero)
@@ -49,15 +53,16 @@ ax.scatter(x,y,marker='x',s=17,color='black',linewidths=.7,label='exact zero')
 ax.set(xticks=range(p),yticks=range(k),yticklabels=[f'{i:03b}' for i in range(k)],
        xlabel=r'$t=h\cdot y\ \mathrm{(mod}\ 13)$',ylabel=r'$\sigma$ (binary syndrome)')
 ax.tick_params(length=2,pad=2)
-cb=fig.colorbar(im,ax=ax,fraction=.045,pad=.035,ticks=[0,2,4,6,8])
+cb=fig.colorbar(im,cax=cax,ticks=[0,2,4,6,8])
 cb.set_label(r'$R=|S(\sigma,t)|^2/8$',labelpad=4)
 ax.set_title('AME(15,26): 97 of 104 cells occupied',loc='left',fontsize=8)
-fig.tight_layout(pad=.35)
+fig.canvas.draw()
+assert abs(ax.get_position().height-cax.get_position().height)<1e-12
 fig.savefig(OUT/'support.pdf',metadata={'CreationDate':None});plt.close(fig)
 
 certs=read('data/o3_binary_certificates.json')['ingredients']
 verified=read('results/o3_verification.json')['constructions']
-fig,axes=plt.subplots(1,3,figsize=(7,2.25),sharey=True)
+fig,axes=plt.subplots(1,3,figsize=(7,1.95),sharey=True)
 for ax,n,k,key,cell in zip(axes,[13,15,17],[16,8,64],['13_16','15_8','17_64'],['13_34','15_34','17_134']):
     cert=certs[key]; counts={int(w):v for w,v in cert['weight_enumerator'].items()}
     actual={w:0 for w in counts}
