@@ -1,6 +1,6 @@
 # Claim-to-evidence map
 
-Labels and printed numbers refer to the R02 article (21 October 2026), which is not
+Labels and printed numbers refer to the article of 21 October 2026 (updated R04), which is not
 included here. C01–C30 and P01–P09 are stable IDs from the original claim ledger.
 The README table is the entry point; this file maps the full computational scope.
 Paths below are clone-relative. Dataset basenames beginning O3/SYM1 identify the
@@ -164,3 +164,18 @@ R01b's rank/C15 checks are `rank_and_c15.py`; R02's cycle check is
 The original construction helpers are retained as library functions; discovery
 entry points and solver searches are omitted. The manuscript and local workflow
 notes are not part of this repository.
+
+## Computational support and graphics (R04 stage 2)
+
+| Article anchor | Data / checked export | Scope and validation |
+|---|---|---|
+| Lemma A.1 `lem:support`; `eq:compressed-intensity`, `eq:support-fraction` | `data/o3_external_spec.json`; `coupled_ame/support.py`; `results/support.json` | Exact checks for eight originals. General proof uses full independent binary label span, distinct prime labels, prime p, K<p, nonzero reference row and equal-weight graph-branch form. No extension to arbitrary isometries or bases. |
+| Fig.2 `fig:support`, worked AME(15,26) paragraph | Same export, `15_26` full canonical array; `figures/build.py` | 104 cells, seven exact zeros, support97/104, 50 distinct squared moduli including zero; each cell has 2^12·13^14 strings. R=|S|²/8; Born cell mass R/104. Exact normalization/mask/classes asserted before floating color evaluation. |
+| Fig.3 `fig:c15` | `data/sym1_external_spec.json/family_witness`; `results/rank_and_c15.json`; figure script | Checked signed images, physical cycle, prime multiplier5 modulo31, dimensions(4,2,2) and(11,10,10). Physical arrows are permutation arrows; local Clifford compensation required. |
+| Fig.4 `fig:capacity` | `data/o4_lp_certificates.json`, `results/rank_and_c15.json`, binary rank16 certificate and original p17 specification | Rank≥9 without spectrum assumptions; capacity K≤p uses written entropy argument. Rank9..13 at p13 remains unresolved. No unrestricted AME nonexistence claim. |
+| Fig.5 `fig:weights` | `data/o3_binary_certificates.json`; `results/o3_verification.json`; figure script independently re-enumerates generator spans | First occupied weights7,8,9; totals511,4095,2047 excluding identity, common vertical scale. Uniformity is of normalized projector, not every supported pure vector. |
+
+`figures/validation.json` records exact figure assertions and PDF hashes. The
+matplotlib PDFs are reproducible from `figures/build.py` with the separate
+`requirements-figures.txt`; the two TikZ diagrams reside only in the article.
+The optional (N,d) lineage map and candidates B,F,G were not built.

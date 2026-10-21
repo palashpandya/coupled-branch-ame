@@ -16,7 +16,7 @@ import mpmath
     'Numerical scope: three deterministic binary cuts per cell for N<=15.\n'
     'All required cuts are checked exactly by two independent implementations.\n')
 start=time.perf_counter(); records=[]
-for name in ['o3_verify','sym1_verify','independent','rank_and_c15','farkas_symbolic','permutation_cycles','parent13','reconstruct','inventory']:
+for name in ['o3_verify','sym1_verify','independent','rank_and_c15','farkas_symbolic','permutation_cycles','parent13','reconstruct','support','inventory']:
     then=time.perf_counter()
     with (RESULTS/(name+'.log')).open('w') as out:
         result=subprocess.run([sys.executable,'-m','coupled_ame.'+name],cwd=ROOT,stdout=out,stderr=subprocess.STDOUT)

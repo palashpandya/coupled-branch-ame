@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "matplotlib": "3.11.2",
+  "support": {
+    "cells": 104,
+    "zero_cells": 7,
+    "distinct_intensities": 50,
+    "mean_R": 1.0
+  },
+  "weight_totals": [
+    511,
+    4095,
+    2047
+  ],
+  "C15_multiplicities": [
+    [
+      4,
+      2,
+      2
+    ],
+    [
+      11,
+      10,
+      10
+    ]
+  ],
+  "rank_diagram": {
+    "lower_bound": 9,
+    "known_stabilizer_rank": 16,
+    "capacities": [
+      5,
+      13,
+      17
+    ]
+  },
+  "pdf_sha256": {
+    "support.pdf": "c149f33e6577445ccbb5adcd3b3c4b8b46ae3e34bea4f7bcb712aa9a80bf8c1a",
+    "pauli_weights.pdf": "06f79dd1fdfbe22d08ff47bc9e13a2d810362085a9db2bcad97dba158299b990"
+  }
+}

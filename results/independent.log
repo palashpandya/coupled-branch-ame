@@ -8,4 +8,4 @@
 15_46 {"N": 15, "p": 23, "K": 8, "labels_linear_space": true, "Lperp_nonzero": 4095, "expected_Lperp_nonzero": 4095, "min_weight": 8, "k": 7, "binary_k_uniform": true, "exact_status": "PASS", "prime_cuts": 6435, "numerical_marginals": 3, "numerical_max_error": 9.84297944703599e-18, "numerical_scope": "first, middle, last cuts in lexicographic order"}
 [PASS] all eight exact certifications; numerical checks are corroboration only
 
-[runner] exit=0 elapsed_seconds=1.596
+[runner] exit=0 elapsed_seconds=1.543

@@ -4,4 +4,4 @@
 [PASS] README verifier references exist; no manuscript files
 [CITED] Source links in data/reference/README.md. No Lean build or external theorem verification performed.
 
-[runner] exit=0 elapsed_seconds=0.032
+[runner] exit=0 elapsed_seconds=0.034

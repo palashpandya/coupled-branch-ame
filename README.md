@@ -62,6 +62,7 @@ a written argument or external source: `inventory.py` only checks its catalogue/
 | 18 | Coupling lineage and binary AME background | Sec. I; Table I | `inventory.py` | cited; source links in `data/reference/README.md`, no Lean build |
 | 19 | Eventual existence for sufficiently large integer d at fixed N | App. E | `inventory.py` | cited Keevash/Helwig–Cui implication, no effective threshold |
 | 20 | Catalogue, data provenance and packaged-file integrity | App. A (availability) | `inventory.py` | exact file/catalogue checks; not a mathematical proof of cited results |
+| 21 | Computational-basis support fraction 1−(K−1)/(Kp), exact zeros and intensity classes | Lem. A.1 (`lem:support`); Fig. 2 | `support.py`, `o3_verify.py` | exact eight-state checks; analytic cyclotomic proof for the stated graph-branch form |
 
 The original structured local group is
 `C2^(N-log2(K)) × (Cp^(N-1) ⋊ C2)`, with inversion by the last C2, modulo scalar phases.
@@ -157,3 +158,15 @@ are credited separately; no ownership over those results is claimed.
 Codex and Claude assisted in development, mathematical checking and documentation. Computational
 certificates have explicit scopes; neither AI assistance nor successful execution replaces review of
 the analytic arguments. This pre-release does not claim a completed human publication review.
+
+## Reproduce the article graphics
+
+The verifier suite includes `support.py`, which exports exact squared-modulus
+polynomials and checks the computational-basis support of the eight original
+graph-branch states. Equal compressed-cell sizes are not equal probabilities;
+the support formula is basis-dependent and does not cover arbitrary isometries.
+
+Figure generation has separate dependencies in `requirements-figures.txt`. After
+running the verifier suite, run `.venv/bin/python figures/build.py` to reproduce
+the vector PDFs and the exact-data validation record. See [figures/README.md](figures/README.md).
+No plotting package is needed to run the verifiers.

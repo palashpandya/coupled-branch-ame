@@ -1,0 +1,10 @@
+13_34 zeros 15 distinct incl zero 33 support 257/272
+15_34 zeros 7 distinct incl zero 66 support 129/136
+17_134 zeros 63 distinct incl zero 2114 support 4225/4288
+15_26 zeros 7 distinct incl zero 50 support 97/104
+13_38 zeros 15 distinct incl zero 146 support 289/304
+13_46 zeros 15 distinct incl zero 178 support 353/368
+15_38 zeros 7 distinct incl zero 74 support 145/152
+15_46 zeros 7 distinct incl zero 90 support 177/184
+
+[runner] exit=0 elapsed_seconds=0.260
