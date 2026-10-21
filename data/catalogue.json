@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "recorded_on": "2026-10-21",
+  "source": "../docs/provenance.json",
+  "status": "announcement_transcription",
+  "note": "Reported results from the source announcement. No construction data or exact verifier is included yet.",
+  "infinite_families": [
+    {
+      "id": "N13",
+      "N": 13,
+      "k": 6,
+      "local_dimension": "2*p",
+      "prime_required": true,
+      "sufficient_prime_threshold": 17,
+      "binary_branches": 16
+    },
+    {
+      "id": "N15",
+      "N": 15,
+      "k": 7,
+      "local_dimension": "2*p",
+      "prime_required": true,
+      "sufficient_prime_threshold": 17,
+      "binary_branches": 8
+    },
+    {
+      "id": "N17",
+      "N": 17,
+      "k": 8,
+      "local_dimension": "2*p",
+      "prime_required": true,
+      "sufficient_prime_threshold": 67,
+      "binary_branches": 64
+    }
+  ],
+  "finite_examples": [
+    {
+      "id": "ame-13-34",
+      "N": 13,
+      "d": 34,
+      "p": 17,
+      "k": 6,
+      "binary_branches": 16,
+      "below_stated_family_threshold": false,
+      "source_reports_exact_verification": true,
+      "repository_verification_status": "not_run",
+      "construction_data_status": "awaiting_import"
+    },
+    {
+      "id": "ame-13-38",
+      "N": 13,
+      "d": 38,
+      "p": 19,
+      "k": 6,
+      "binary_branches": 16,
+      "below_stated_family_threshold": false,
+      "source_reports_exact_verification": true,
+      "repository_verification_status": "not_run",
+      "construction_data_status": "awaiting_import"
+    },
+    {
+      "id": "ame-13-46",
+      "N": 13,
+      "d": 46,
+      "p": 23,
+      "k": 6,
+      "binary_branches": 16,
+      "below_stated_family_threshold": false,
+      "source_reports_exact_verification": true,
+      "repository_verification_status": "not_run",
+      "construction_data_status": "awaiting_import"
+    },
+    {
+      "id": "ame-15-26",
+      "N": 15,
+      "d": 26,
+      "p": 13,
+      "k": 7,
+      "binary_branches": 8,
+      "below_stated_family_threshold": true,
+      "source_reports_exact_verification": true,
+      "repository_verification_status": "not_run",
+      "construction_data_status": "awaiting_import"
+    },
+    {
+      "id": "ame-15-34",
+      "N": 15,
+      "d": 34,
+      "p": 17,
+      "k": 7,
+      "binary_branches": 8,
+      "below_stated_family_threshold": false,
+      "source_reports_exact_verification": true,
+      "repository_verification_status": "not_run",
+      "construction_data_status": "awaiting_import"
+    },
+    {
+      "id": "ame-15-38",
+      "N": 15,
+      "d": 38,
+      "p": 19,
+      "k": 7,
+      "binary_branches": 8,
+      "below_stated_family_threshold": false,
+      "source_reports_exact_verification": true,
+      "repository_verification_status": "not_run",
+      "construction_data_status": "awaiting_import"
+    },
+    {
+      "id": "ame-15-46",
+      "N": 15,
+      "d": 46,
+      "p": 23,
+      "k": 7,
+      "binary_branches": 8,
+      "below_stated_family_threshold": false,
+      "source_reports_exact_verification": true,
+      "repository_verification_status": "not_run",
+      "construction_data_status": "awaiting_import"
+    },
+    {
+      "id": "ame-17-134",
+      "N": 17,
+      "d": 134,
+      "p": 67,
+      "k": 8,
+      "binary_branches": 64,
+      "below_stated_family_threshold": false,
+      "source_reports_exact_verification": true,
+      "repository_verification_status": "not_run",
+      "construction_data_status": "awaiting_import"
+    }
+  ]
+}
+
