@@ -3,6 +3,7 @@ from ._paths import DATA, RESULTS
 from coupled_ame import codes as c
 from coupled_ame.construction import parent_graph, cuts, graph_form
 from coupled_ame.circle13 import circle
+from coupled_ame.parent11 import build as parent11
 import json
 
 def read(name):return json.loads((DATA/name).read_text())
@@ -25,10 +26,11 @@ for key,s in [('13_16',s13),('15_8',s15),('17_64',s17)]:
     print('[PASS] seed/restriction',key)
 A,provenance=circle(); circle_cert=read('o3_circle13_certificate.json')
 assert A==circle_cert['prime_parent_graph'] and canonical(provenance)==circle_cert['provenance']
+A11=parent11()
 spec=read('o3_external_spec.json')['constructions']; certs=read('o3_construction_certificates.json');out={}
 for key,state in spec.items():
     n,p=state['N'],state['p']
-    parent=A if key=='15_26' else parent_graph(n+1,p)
+    parent=A11 if key=='15_22' else A if key=='15_26' else parent_graph(n+1,p)
     assert parent==state['prime_parent_graph']
     cutcert=canonical(cuts(parent,p));assert cutcert==certs[key]['prime_parent']
     if key=='15_26': assert cutcert==circle_cert['cut_certificate']

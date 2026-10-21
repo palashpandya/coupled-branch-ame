@@ -315,6 +315,30 @@
         "21": 560,
         "22": 628
       }
+    },
+    "15_22": {
+      "passed": true,
+      "binary_weight_enumerator": {
+        "0": 1,
+        "8": 405,
+        "10": 1260,
+        "12": 1890,
+        "14": 540
+      },
+      "low_weight_graph_words_checked": 513,
+      "prime_cuts_checked": 12870,
+      "nonzero_determinant_histogram": {
+        "1": 1292,
+        "2": 1102,
+        "3": 1224,
+        "4": 1334,
+        "5": 1434,
+        "6": 1326,
+        "7": 1286,
+        "8": 1366,
+        "9": 1236,
+        "10": 1270
+      }
     }
   },
   "binary_ingredients_independently_checked": 8,
@@ -325,6 +349,6 @@
     "duplicate_label_rejected": true,
     "zero_parent_rejected": true
   },
-  "wall_seconds": 5.058578202966601,
+  "wall_seconds": 6.480388441006653,
   "implementation": "standard-library independent arithmetic, no constructor imports"
 }

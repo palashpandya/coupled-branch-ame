@@ -1,3 +1,4 @@
+Symmetry scope: eight certified states; 15_22 not classified
 binary 13 complete 2
 binary 15 complete 360
 binary 17 complete 2
@@ -19,6 +20,6 @@ redesign 13_46 PASS 2
 redesign 15_38 PASS 3
 redesign 15_46 PASS 2
 redesign family_15_62 PASS 15
-ALL PASS 8.448603586992249 seconds 75484 KiB
+ALL PASS 9.074713003006764 seconds 75116 KiB
 
-[runner] exit=0 elapsed_seconds=8.478
+[runner] exit=0 elapsed_seconds=9.111

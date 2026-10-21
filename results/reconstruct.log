@@ -1,6 +1,7 @@
 [PASS] seed/restriction 13_16
 [PASS] seed/restriction 15_8
 [PASS] seed/restriction 17_64
+[PASS] GF121 parent: Hermitian product, 12869 minors, 12870 graph cuts and perturbed-edge control
 [PASS] reconstructed parent and cut certificate 13_34 3432
 [PASS] reconstructed parent and cut certificate 15_34 12870
 [PASS] reconstructed parent and cut certificate 17_134 48620
@@ -9,5 +10,6 @@
 [PASS] reconstructed parent and cut certificate 13_46 3432
 [PASS] reconstructed parent and cut certificate 15_38 12870
 [PASS] reconstructed parent and cut certificate 15_46 12870
+[PASS] reconstructed parent and cut certificate 15_22 12870
 
-[runner] exit=0 elapsed_seconds=1.717
+[runner] exit=0 elapsed_seconds=3.312

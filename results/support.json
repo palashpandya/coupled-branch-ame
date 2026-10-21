@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "method": "exact integer autocorrelation modulo Phi_p; no numerical zero tolerance",
-  "input_sha256": "90cb2b62d7a6b239d9a2ef713d2b955fbae44f4ef620cefa30155150a3eda927",
+  "input_sha256": "aa3a592ef9fbd968a29b34971612306eae0d7026c333491bac3e7b5499d35c2c",
   "cells": {
     "13_34": {
       "N": 13,
@@ -4887,6 +4887,96 @@
         2,
         2,
         2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        7
+      ],
+      "squared_S_canonical": null
+    },
+    "15_22": {
+      "N": 15,
+      "p": 11,
+      "K": 8,
+      "m": 3,
+      "compressed_cells": 88,
+      "zero_cells": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          4,
+          0
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          7,
+          0
+        ]
+      ],
+      "number_zero_cells": 7,
+      "distinct_intensities_including_zero": 42,
+      "distinct_positive_intensities": 41,
+      "support_fraction": "81/88",
+      "basis_states_per_cell": 1555455318356955136,
+      "normalization_sum_squared_S": 704,
+      "syndrome_marginal": "1/8",
+      "prime_label_marginal": "1/11",
+      "intensity_class_multiplicities": [
+        1,
         2,
         2,
         2,

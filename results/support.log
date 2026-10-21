@@ -6,5 +6,6 @@
 13_46 zeros 15 distinct incl zero 178 support 353/368
 15_38 zeros 7 distinct incl zero 74 support 145/152
 15_46 zeros 7 distinct incl zero 90 support 177/184
+15_22 zeros 7 distinct incl zero 42 support 81/88
 
-[runner] exit=0 elapsed_seconds=0.260
+[runner] exit=0 elapsed_seconds=0.509

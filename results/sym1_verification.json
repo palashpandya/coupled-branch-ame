@@ -308,7 +308,7 @@
     "wrong cyclotomic phase rejected",
     "singular prime local map rejected"
   ],
-  "wall_seconds": 8.448603586992249,
-  "max_rss_kib": 75484,
+  "wall_seconds": 9.074713003006764,
+  "max_rss_kib": 75116,
   "processes": 1
 }

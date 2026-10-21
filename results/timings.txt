@@ -1,11 +1,11 @@
-o3_verify: exit=0, seconds=5.085
-sym1_verify: exit=0, seconds=8.478
-independent: exit=0, seconds=1.543
-rank_and_c15: exit=0, seconds=0.027
-farkas_symbolic: exit=0, seconds=1.110
-permutation_cycles: exit=0, seconds=0.024
-parent13: exit=0, seconds=0.071
-reconstruct: exit=0, seconds=1.717
-support: exit=0, seconds=0.260
-inventory: exit=0, seconds=0.034
-total_seconds=18.350
+o3_verify: exit=0, seconds=6.503
+sym1_verify: exit=0, seconds=9.111
+independent: exit=0, seconds=1.852
+rank_and_c15: exit=0, seconds=0.034
+farkas_symbolic: exit=0, seconds=1.235
+permutation_cycles: exit=0, seconds=0.021
+parent13: exit=0, seconds=0.072
+reconstruct: exit=0, seconds=3.312
+support: exit=0, seconds=0.509
+inventory: exit=0, seconds=0.070
+total_seconds=22.720

@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "status": "exact_certificates_packaged",
-  "article_draft": "R02, 2026-10-21",
+  "article_draft": "R06, 2026-10-21",
   "infinite_families": [
     {
       "N": 13,
@@ -11,9 +11,9 @@
     },
     {
       "N": 15,
-      "prime_threshold": 17,
+      "prime_threshold": 11,
       "K": 8,
-      "scope": "Cauchy family, analytic proof"
+      "scope": "One binary ingredient; GF121 parent at p11, HZ circle at p13, Cauchy for primes p>=17"
     },
     {
       "N": 17,
@@ -86,8 +86,15 @@
       "p": 23,
       "K": 8,
       "verifier": "coupled_ame/o3_verify.py"
+    },
+    {
+      "key": "15_22",
+      "N": 15,
+      "d": 22,
+      "p": 11,
+      "K": 8,
+      "verifier": "coupled_ame/o3_verify.py"
     }
   ],
-  "exception": "AME(15,26), reconstructed HZ circle parent",
   "priority": "unestablished; no universal novelty claim"
 }

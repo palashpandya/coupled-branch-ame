@@ -408,5 +408,57 @@
       "ordered_cut_rank_sha256": "e9e17f36113df32f3bff0d67dd5108c5405de03736ea6e17e3fb00addd7ddb53",
       "matrix_sha256": "5a6e0726f4404ee1392b2ce74866024e08b4b34b914c7e027356ecdf7a76d124"
     }
+  },
+  "15_22": {
+    "binary": {
+      "N": 15,
+      "binary_rank": 12,
+      "K": 8,
+      "minimum_weight": 8,
+      "weight_enumerator": {
+        "0": 1,
+        "8": 405,
+        "10": 1260,
+        "12": 1890,
+        "14": 540
+      },
+      "generators": [
+        13861426,
+        30933383,
+        28705862,
+        61014824,
+        57018520,
+        118228676,
+        245105040,
+        104865080,
+        87044912,
+        479730240,
+        305157824,
+        962606112
+      ],
+      "pauli_rows": [
+        "ZYZIXYIZZXIIIII",
+        "XXXIZZIYYZIIIII",
+        "IXYZIZYIZZXIIII",
+        "IZZXIXZIYYZIIII",
+        "IIZYXIZYIZZXIII",
+        "IIXZZIXXIYYZIII",
+        "IIIZYZIXYIZZZII",
+        "IIIXXXIZXIYYXII",
+        "IIIIXYZIXYIZXXI",
+        "IIIIZZXIZXIYYZI",
+        "IIIIIZYXIXYIXZX",
+        "IIIIIXZZIZXIYYZ"
+      ]
+    },
+    "prime_parent": {
+      "cut_size": 8,
+      "all_balanced_cuts": 12870,
+      "rank_histogram": {
+        "8": 12870
+      },
+      "ordered_cut_rank_sha256": "e9e17f36113df32f3bff0d67dd5108c5405de03736ea6e17e3fb00addd7ddb53",
+      "matrix_sha256": "43c4abe3c73e61d0234c8861c83ace55343c8ebc8280c63589a0894e20fcf582"
+    }
   }
 }

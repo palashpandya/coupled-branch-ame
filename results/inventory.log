@@ -1,7 +1,7 @@
-[PASS] imported inputs and ported sources match manifest: 27
-[PASS] frozen data checksums: 18
-[PASS] catalogue agrees with eight specifications and stated analytic thresholds
+[PASS] imported inputs and ported sources match manifest: 28
+[PASS] frozen data checksums: 19
+[PASS] catalogue agrees with nine specifications and stated analytic thresholds
 [PASS] README verifier references exist; no manuscript files
 [CITED] Source links in data/reference/README.md. No Lean build or external theorem verification performed.
 
-[runner] exit=0 elapsed_seconds=0.034
+[runner] exit=0 elapsed_seconds=0.070

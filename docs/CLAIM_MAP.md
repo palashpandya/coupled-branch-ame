@@ -1,6 +1,6 @@
 # Claim-to-evidence map
 
-Labels and printed numbers refer to the article of 21 October 2026 (updated R04), which is not
+Labels and printed numbers refer to the article of 21 October 2026 (updated R06), which is not
 included here. C01–C30 and P01–P09 are stable IDs from the original claim ledger.
 The README table is the entry point; this file maps the full computational scope.
 Paths below are clone-relative. Dataset basenames beginning O3/SYM1 identify the
@@ -10,12 +10,12 @@ research stage, not an external directory or dependency.
 
 | Article / ledger | Evidence and checker | Scope |
 |---|---|---|
-| Thm.I.1 `thm:main`, C02–C12 | `data/o3_external_spec.json`, `o3_binary_certificates.json`, `o3_construction_certificates.json`, `o3_circle13_certificate.json` (all under `data/`); `coupled_ame/o3_verify.py`, `independent.py`, `reconstruct.py` | Eight finite instances exact; all-primes conclusion uses the Cauchy proof and coupling identities. |
+| Thm.I.1 `thm:main`, C02–C12 | `data/o3_external_spec.json`, `o3_binary_certificates.json`, `o3_construction_certificates.json`, `o3_circle13_certificate.json` (all under `data/`); `coupled_ame/o3_verify.py`, `independent.py`, `reconstruct.py` | Nine finite instances exact; all-primes conclusion uses the Cauchy proof and coupling identities. |
 | Prop.II.1 `prop:coupling`, C02; Lem.II.2 `lem:parent`, C03 | `docs/o4_algebraic_notes.md`, parent cuts in the preceding row | Written matrix-block/partial-trace argument; permits nonorthogonal binary states and nonnegative weights. |
 | Prop.III.1 `prop:weights`, C04 | `data/o3_binary_certificates.json`; `coupled_ame/o3_verify.py` | Pauli expansion of normalized projector, not a uniformity assertion about each supported vector. |
 | Prop.III.2 `prop:binary`, C05–C08 | Same binary certificates; `coupled_ame/codes.py`, `reconstruct.py` | Rebuild six polynomial shifts, length18 seed and restrictions; check full enumerators and subgroup ranks. |
 | Lem.IV.1 `lem:cauchy`, C09 | `coupled_ame/construction.py`, `reconstruct.py`; analytic argument below | Character-sum/Cauchy proof is not inferred from finite examples. |
-| Prop.V.1 `prop:isometry`, C14; matching Eq.(19), C15 | `docs/sym1_notes.md` §1; `coupled_ame/sym1_verify.py` | Written isometry/intertwiner argument; exact finite spectral realizations. |
+| Prop.V.1 `prop:isometry`, C14; matching Eq.(20), C15 | `docs/sym1_notes.md` §1; `coupled_ame/sym1_verify.py` | Written isometry/intertwiner argument; exact finite spectral realizations. |
 | Prop.V.2 `prop:redesigns`, C19,C20 | `data/sym1_external_spec.json`, `sym1_alternates.json`; `coupled_ame/sym1_verify.py`, `permutation_cycles.py` | Six finite nontrivial subgroups, not full redesigned groups. |
 | Thm.V.3 `thm:c15`, C20 | `data/sym1_external_spec.json/family_witness`; `coupled_ame/rank_and_c15.py`, `sym1_verify.py`; `docs/sym1_notes.md` §6 | Exact p31 witness and signed logical action; orbit/multiplicity proof extends to p≡1 mod15. |
 | Prop.VI.1 `prop:rank9`, C28 | `data/o4_lp_certificates.json`; `coupled_ame/rank_and_c15.py`, `farkas_symbolic.py`; `docs/o4_algebraic_notes.md` | Arbitrary-spectrum rank≥9. Rational system independently reconstructed; symbolic identity independently derived. |
@@ -41,13 +41,14 @@ claims are cited, not checked by building Lean in this repository.
 | 13_34 | 13,34 | 16 | Cauchy p17 | 3432 / 1716 |
 | 13_38 | 13,38 | 16 | Cauchy p19 | 3432 / 1716 |
 | 13_46 | 13,46 | 16 | Cauchy p23 | 3432 / 1716 |
+| 15_22 | 15,22 | 8 | GF121 Hermitian | 12870 / 6435 |
 | 15_26 | 15,26 | 8 | reconstructed HZ circle p13 | 12870 / 6435 |
 | 15_34 | 15,34 | 8 | Cauchy p17 | 12870 / 6435 |
 | 15_38 | 15,38 | 8 | Cauchy p19 | 12870 / 6435 |
 | 15_46 | 15,46 | 8 | Cauchy p23 | 12870 / 6435 |
 | 17_134 | 17,134 | 64 | Cauchy p67 | 48620 / 24310 |
 
-The total is 110396 oriented cuts, or 55198 after identifying transpose cuts.
+The total is 123266 oriented cuts, or 61633 after identifying transpose cuts.
 
 **Table III (notation), C01–C04,C08,C14,C15:** N=2k+1; p prime and d=2p;
 K is branch count (projector rank only in the orthonormal case); binary stabilizer
@@ -79,8 +80,8 @@ The original(15,26) and(17,134) entries are retained without a nontrivial redesi
   length18 seed, ranks9,12,11, minima7,8,9, and nonidentity sizes511,4095,2047:
   `data/o3_binary_certificates.json`, `o3_verify.py`, `reconstruct.py`.
   Graph branch signs and ordered labels use `data/o3_external_spec.json`.
-- **C09,C11:** sufficient prime thresholds17,17,67 follow from p≥N+1 and K≤p;
-  the p13 exception uses `data/o3_circle13_certificate.json`. Its GF169 formula,
+- **C09,C11:** Cauchy thresholds17,17,67 follow from p≥N+1 and K≤p;
+  the complete N15 threshold is11 using the GF121 and circle parents. The p13 member uses `data/o3_circle13_certificate.json`. Its GF169 formula,
   Hermitian matrix, graph conversion, and all cuts are reconstructed by `circle13.py`
   and checked against the certificate by `reconstruct.py`.
 - **C14,C15,C19,C20:** phases, isometry recipe, eigenvalue multiplicities and fixed
@@ -169,7 +170,7 @@ notes are not part of this repository.
 
 | Article anchor | Data / checked export | Scope and validation |
 |---|---|---|
-| Lemma A.1 `lem:support`; `eq:compressed-intensity`, `eq:support-fraction` | `data/o3_external_spec.json`; `coupled_ame/support.py`; `results/support.json` | Exact checks for eight originals. General proof uses full independent binary label span, distinct prime labels, prime p, K<p, nonzero reference row and equal-weight graph-branch form. No extension to arbitrary isometries or bases. |
+| Lemma A.1 `lem:support`; `eq:compressed-intensity`, `eq:support-fraction` | `data/o3_external_spec.json`; `coupled_ame/support.py`; `results/support.json` | Exact checks for nine originals. General proof uses full independent binary label span, distinct prime labels, prime p, K<p, nonzero reference row and equal-weight graph-branch form. No extension to arbitrary isometries or bases. |
 | Fig.2 `fig:support`, worked AME(15,26) paragraph | Same export, `15_26` full canonical array; `figures/build.py` | 104 cells, seven exact zeros, support97/104, 50 distinct squared moduli including zero; each cell has 2^12·13^14 strings. R=|S|²/8; Born cell mass R/104. Exact normalization/mask/classes asserted before floating color evaluation. |
 | Fig.3 `fig:c15` | `data/sym1_external_spec.json/family_witness`; `results/rank_and_c15.json`; figure script | Checked signed images, physical cycle, prime multiplier5 modulo31, dimensions(4,2,2) and(11,10,10). Physical arrows are permutation arrows; local Clifford compensation required. |
 | Fig.4 `fig:capacity` | `data/o4_lp_certificates.json`, `results/rank_and_c15.json`, binary rank16 certificate and original p17 specification | Rank≥9 without spectrum assumptions; capacity K≤p uses written entropy argument. Rank9..13 at p13 remains unresolved. No unrestricted AME nonexistence claim. |
@@ -179,3 +180,12 @@ notes are not part of this repository.
 matplotlib PDFs are reproducible from `figures/build.py` with the separate
 `requirements-figures.txt`; the two TikZ diagrams reside only in the article.
 The optional (N,d) lineage map and candidates B,F,G were not built.
+
+## R06: the unified N15 family and the p11 certificate
+
+- `thm:main` now gives prime thresholds17,11,67 for N13,15,17. N15 uses one binary ingredient and three parents: GF121 at p11, HZ circle at p13, Cauchy for primes≥17. At N13 and N17 the limiting inequality is K≤p, with K16 and K64. No unread Ball theorem or general classical-MDS exclusion is used.
+- Table II adds15_22: N15,d22,K8, Hermitian parent,12870 oriented/6435 unoriented cuts. Total across nine cells:123266/61633. `data/o3_external_spec.json`, `data/o3_construction_certificates.json` and `data/catalogue.json` include the new cell.
+- `eq:parent11`: `data/parent11_certificate.json`; `coupled_ame/parent11.py` invoked by `reconstruct.py` checks the Hermitian identity, all12869 minors, symplectic/graph conversion, all12870 cuts and one-edge negative control. `o3_verify.py` and `independent.py` independently accept the assembled specification. Results: `results/parent11.json`, `o3_verification.json`, `independent_o3.json`, `reconstruction.json`.
+- `tab:support` (Table V), `lem:support`: `results/support.json` supplies every row, exact zeros, support fractions and intensity counts for nine cells. New15_22 row:88 cells,7 zeros,81/88 support,42 distinct squared moduli including zero. Fig.2 remains the15_26 example.
+- Symmetry classification and its group formulas still cover only the previous eight states, explicitly excluding15_22. `sym1_verify.py` selects the keys present in the existing symmetry certificates; no new group claim is inferred.
+- Parent existence attribution: locally read Grassl–Rötteler arXiv1502.05267v1, Proposition2, Theorem8 and SectionVI; local Huber–Wyderka table snapshot records AME(16,11) with this reference. The explicit bordered-circulant matrix was found in V01. No novelty claim for parent existence or exhaustive search is made.

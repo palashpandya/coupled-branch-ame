@@ -5,8 +5,10 @@
       "source_name": "o3_external_spec.json",
       "destination": "data/o3_external_spec.json",
       "source_sha256": "90cb2b62d7a6b239d9a2ef713d2b955fbae44f4ef620cefa30155150a3eda927",
-      "packaged_sha256": "90cb2b62d7a6b239d9a2ef713d2b955fbae44f4ef620cefa30155150a3eda927",
-      "adapted": false
+      "packaged_sha256": "aa3a592ef9fbd968a29b34971612306eae0d7026c333491bac3e7b5499d35c2c",
+      "adapted": true,
+      "previous_packaged_sha256": "90cb2b62d7a6b239d9a2ef713d2b955fbae44f4ef620cefa30155150a3eda927",
+      "R06_change": "Integrate15_22; preserve previous eight-state symmetry scope where applicable."
     },
     {
       "source_name": "o3_binary_certificates.json",
@@ -19,8 +21,10 @@
       "source_name": "o3_construction_certificates.json",
       "destination": "data/o3_construction_certificates.json",
       "source_sha256": "46bac827c151c6836d3cb8a11caa625f436fac9382832ac6a8b670b36bf41091",
-      "packaged_sha256": "46bac827c151c6836d3cb8a11caa625f436fac9382832ac6a8b670b36bf41091",
-      "adapted": false
+      "packaged_sha256": "38ba1916547156dcc70c68f565f4ea715140f3efddb05f86c393cf935650cbfb",
+      "adapted": true,
+      "previous_packaged_sha256": "46bac827c151c6836d3cb8a11caa625f436fac9382832ac6a8b670b36bf41091",
+      "R06_change": "Integrate15_22; preserve previous eight-state symmetry scope where applicable."
     },
     {
       "source_name": "o3_circle13_certificate.json",
@@ -138,8 +142,10 @@
       "source_name": "sym1_verify.py",
       "destination": "coupled_ame/sym1_verify.py",
       "source_sha256": "7cbcb2c295908dff0ddadea2477454a1a8d817ba06a081244b847c33746dc682",
-      "packaged_sha256": "fae07f64f470d21fdca9a7ababb786520bbdca25758840328e61c1ce2174b68c",
-      "adapted": true
+      "packaged_sha256": "f890ef47d0725501e86b680238d8c18b8baba265fa31b066f919b869f4f75cf7",
+      "adapted": true,
+      "previous_packaged_sha256": "fae07f64f470d21fdca9a7ababb786520bbdca25758840328e61c1ce2174b68c",
+      "R06_change": "Integrate15_22; preserve previous eight-state symmetry scope where applicable."
     },
     {
       "source_name": "o3_codes.py",
@@ -189,6 +195,13 @@
       "source_sha256": "ca1cd3b06c52325e1fa1a3230e396b5c42a5055e5fc24d07d241548cc757a2a3",
       "packaged_sha256": "9531ff80243558efab68b25b4cc85ca1d23f0c5e1160c03c4748f876abbbc7b2",
       "adapted": true
+    },
+    {
+      "source_name": "V01 parent_certificate.json",
+      "destination": "data/parent11_certificate.json",
+      "source_sha256": "64b7b95c6295a7bdcc4102ad806266f56a2791ceb269a7ad7ddbd54c1ae93eb9",
+      "packaged_sha256": "64b7b95c6295a7bdcc4102ad806266f56a2791ceb269a7ad7ddbd54c1ae93eb9",
+      "adapted": false
     }
   ],
   "adaptations": [

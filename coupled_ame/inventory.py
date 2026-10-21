@@ -20,8 +20,8 @@ assert {c['key'] for c in cat['finite_examples']}==set(spec)
 for c in cat['finite_examples']:
     s=spec[c['key']]
     assert all(c[k]==s[k] for k in ['N','K','p']) and c['d']==2*s['p']
-assert [(x['N'],x['prime_threshold'],x['K']) for x in cat['infinite_families']]==[(13,17,16),(15,17,8),(17,67,64)]
-print('[PASS] catalogue agrees with eight specifications and stated analytic thresholds')
+assert [(x['N'],x['prime_threshold'],x['K']) for x in cat['infinite_families']]==[(13,17,16),(15,11,8),(17,67,64)]
+print('[PASS] catalogue agrees with nine specifications and stated analytic thresholds')
 readme=(ROOT/'README.md').read_text()
 for name in re.findall(r'`([a-z_]+\.py)`',readme):
     assert (ROOT/'coupled_ame'/name).is_file(),name

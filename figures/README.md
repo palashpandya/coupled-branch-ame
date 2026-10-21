@@ -13,7 +13,7 @@ The script produces vector `support.pdf` and `pauli_weights.pdf`, plus
 Matplotlib is not required by the verifier suite.
 
 The support plot uses the exact polynomial coefficients exported by
-`coupled_ame.support` to `results/support.json`. The export covers all eight
+`coupled_ame.support` to `results/support.json`. The export covers all nine
 original states; the full cell array is retained for the plotted `15_26` state.
 Integer checks establish the zero mask, normalization and 50 equality classes;
 complex floating arithmetic only sets the colors. The color scale is linear,

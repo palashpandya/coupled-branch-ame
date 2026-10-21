@@ -1,7 +1,7 @@
 {
   "status": "PASS",
-  "manifest_files": 27,
-  "data_files": 18,
-  "finite_cells": 8,
+  "manifest_files": 28,
+  "data_files": 19,
+  "finite_cells": 9,
   "cited_sources": "metadata only; not proof verification"
 }

@@ -44,3 +44,9 @@ Parameters precede this work. No equivalence to an unread classical original is 
   partite designs; combined with the array construction, this implies eventual
   AME existence for fixed N and sufficiently large integer dimension. It supplies
   no numerical threshold for the finite cells here.
+
+The AME(16,11) parent parameters are recorded by the [Huber–Wyderka table](https://huberfe.github.io/table.html),
+citing [Grassl–Rötteler, Quantum MDS Codes over Small Fields](https://arxiv.org/abs/1502.05267).
+The explicit bordered-circulant matrix in `parent11_certificate.json` was found by our
+deterministic local search and is reconstructed and checked by `parent11.py`;
+its inclusion does not assert new existence of the prime parent.

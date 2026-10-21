@@ -428,6 +428,10 @@ def verify_inventory(src,parents):
 
 def main():
  start=time.monotonic();src=read('o3_external_spec.json')['constructions'];ba=read('sym1_binary_aut.json');pa=read('sym1_parent_results.json');matched=read('sym1_asbuilt.json');new=read('sym1_external_spec.json');out={};cache=set()
+ # Structured-group certificates cover only the previous eight states.
+ assert set(pa)==set(matched) and set(pa)<=set(src)
+ src={key:src[key] for key in pa}
+ print('Symmetry scope: eight certified states; 15_22 not classified',flush=True)
  for ns,r in ba.items():
   n=int(ns);c=next(c for c in src.values() if c['N']==n);ps=automorphisms(support_colors(c),n);assert len(ps)==r['support_order']
   found={}

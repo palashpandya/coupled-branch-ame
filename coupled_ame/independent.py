@@ -34,4 +34,4 @@ for name, c in spec.items():
     out[name]=row
     print(name, json.dumps(row), flush=True)
 (RESULTS/'independent_o3.json').write_text(json.dumps(out,indent=2)+'\n')
-print('[PASS] all eight exact certifications; numerical checks are corroboration only')
+print('[PASS] all stored exact certifications; numerical checks are corroboration only')

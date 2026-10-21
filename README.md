@@ -20,17 +20,17 @@ An AME(N,d) state is a pure state whose reductions to any floor(N/2) parties are
 Here a coherent sum pairs binary branches with conditioned prime-dimensional AME branches. The binary
 average supplies local uniformity and the prime factor removes interference between branch labels.
 
-The constructions give AME(13,2p) and AME(15,2p) for every prime p≥17, AME(17,2p) for every prime p≥67,
-and AME(15,26) using a separate parent. Thus the fifteen-party result covers all primes p≥13.
-The stored original cells are (13,34), (13,38), (13,46), (15,26), (15,34), (15,38), (15,46), (17,134).
+The constructions give AME(13,2p), AME(15,2p) and AME(17,2p) for every prime p≥17, p≥11 and p≥67, respectively.
+The fifteen-party family uses one rank8 binary ingredient with a GF121 Hermitian parent at p11,
+the HZ circle parent at p13, and Cauchy parents for p≥17. For N13 and N17, the thresholds
+are set by branch capacity K≤p (K16 and K64), not by the availability of prime parents.
+The stored original cells are (13,34), (13,38), (13,46), (15,22), (15,26), (15,34), (15,38), (15,46), (17,134).
 Branch isometries also give the cyclic subgroups in Table IV, including AME(15,62) and a C15 family
 for every prime p≡1 (mod 15).
 
 The contribution is the explicit small binary ingredients, effective prime thresholds, exact certificates,
 and symmetric realizations. Coupling has precedents in Shi–Zhang–Zhao–Li, Atlas and Kitamura; Bevins–Bidav
-and Hontarenko–Życzkowski supply parent/code constructions. A targeted audit dated 20 October 2026 found
-no earlier construction covering the eight cells or stated thresholds, but publication priority remains
-unestablished. Neither a new coupling principle nor first eventual existence is claimed.
+and Hontarenko–Życzkowski supply parent/code constructions. Publication priority remains unestablished; no new priority audit is asserted for the enlarged family. Neither a new coupling principle nor first eventual existence is claimed.
 
 ## Results and how they are established
 
@@ -42,15 +42,15 @@ a written argument or external source: `inventory.py` only checks its catalogue/
 
 | # | Statement | Paper | Script | Status |
 |---|---|---|---|---|
-| 1 | Eight original cells are AME; 110,396 oriented parent cuts | Thm. I.1; Table II | `o3_verify.py`, `independent.py`, `reconstruct.py` | exact |
-| 2 | Every prime p≥17,17,67 in the three respective families; extra (15,26) | Thm. I.1; Lem. IV.1 (`lem:cauchy`) | `reconstruct.py`, `inventory.py` | exact finite inputs; cited analytic Cauchy proof |
+| 1 | Nine original cells are AME; 123,266 oriented parent cuts | Thm. I.1; Table II | `o3_verify.py`, `independent.py`, `reconstruct.py` | exact |
+| 2 | Every prime p≥17,11,67 in the three respective families; three parent constructions at N15 | Thm. I.1; Lem. IV.1 (`lem:cauchy`) | `reconstruct.py`, `inventory.py` | exact finite inputs; cited analytic Cauchy proof |
 | 3 | Weighted coupling, conditioned-parent identity and stabilizer-projector criterion | Prop. II.1, Lem. II.2, Prop. III.1 | `o3_verify.py`, `inventory.py` | exact finite inputs; cited partial-trace/Pauli arguments |
 | 4 | Binary ranks16,8,64 and minimum stabilizer weights7,8,9; full enumerators and seeds | Prop. III.2; Eqs.(10)–(12),(A1)–(A3) | `o3_verify.py`, `reconstruct.py` | exact |
-| 5 | Cauchy and HZ circle parent graphs, all stored cut certificates | Sec. IV; Eq.(16) | `reconstruct.py` | exact; HZ formula independently implemented |
-| 6 | Arbitrary branch isometries preserve AME; matching condition βV=e^(iθ)V conjugate(α) | Prop. V.1; Eq.(19) | `sym1_verify.py`, `inventory.py` | exact finite realizations; cited algebraic argument |
+| 5 | Cauchy and HZ circle parent graphs, all stored cut certificates | Sec. IV; Eq.(17) | `reconstruct.py` | exact; HZ formula independently implemented |
+| 6 | Arbitrary branch isometries preserve AME; matching condition βV=e^(iθ)V conjugate(α) | Prop. V.1; Eq.(20) | `sym1_verify.py`, `inventory.py` | exact finite realizations; cited algebraic argument |
 | 7 | Six nontrivial finite redesigns with C4,C6,C2,C2,C3,C2 | Prop. V.2; Table IV rows1–6 | `sym1_verify.py`, `permutation_cycles.py` | exact subgroup certificates |
 | 8 | C15 at(15,62); logical order3 and multiplicities(4,2,2); all primes p≡1 mod15 | Thm. V.3; Table IV row7; Eq.(C3) | `sym1_verify.py`, `rank_and_c15.py`, `inventory.py` | exact witness/action; cited all-primes orbit proof |
-| 9 | Full projective structured groups of the eight original states | Prop. D.1; Eqs.(D1)–(D3) | `sym1_verify.py` | exact, with completeness reductions in `docs/sym1_notes.md`; restricted Clifford class only |
+| 9 | Full projective structured groups of the eight previously classified states (excluding15_22) | Prop. D.1; Eqs.(D1)–(D3) | `sym1_verify.py` | exact, with completeness reductions in `docs/sym1_notes.md`; restricted Clifford class only |
 | 10 | Projector rank exclusions at N13,N15; optimal stabilizer ranks16,8 | Sec. VI; App. B | `o3_verify.py` | exact rational certificates |
 | 11 | N17: K22 excluded, K23 and K32 feasible enumerators; even-weight K32 excluded | Sec. VI; App. B | `o3_verify.py` | exact; no global threshold inferred, no state from feasibility |
 | 12 | No weight9 one-generator extension of the specified N17 subgroup; 4,095 cosets | Sec. VI; App. B | `o3_verify.py` | exact, scoped to that subgroup |
@@ -62,7 +62,7 @@ a written argument or external source: `inventory.py` only checks its catalogue/
 | 18 | Coupling lineage and binary AME background | Sec. I; Table I | `inventory.py` | cited; source links in `data/reference/README.md`, no Lean build |
 | 19 | Eventual existence for sufficiently large integer d at fixed N | App. E | `inventory.py` | cited Keevash/Helwig–Cui implication, no effective threshold |
 | 20 | Catalogue, data provenance and packaged-file integrity | App. A (availability) | `inventory.py` | exact file/catalogue checks; not a mathematical proof of cited results |
-| 21 | Computational-basis support fraction 1−(K−1)/(Kp), exact zeros and intensity classes | Lem. A.1 (`lem:support`); Fig. 2 | `support.py`, `o3_verify.py` | exact eight-state checks; analytic cyclotomic proof for the stated graph-branch form |
+| 21 | Computational-basis support fraction 1−(K−1)/(Kp), exact zeros and intensity classes | Lem. A.1 (`lem:support`); Fig. 2 | `support.py`, `o3_verify.py` | exact nine-state checks; analytic cyclotomic proof for the stated graph-branch form |
 
 The original structured local group is
 `C2^(N-log2(K)) × (Cp^(N-1) ⋊ C2)`, with inversion by the last C2, modulo scalar phases.
@@ -116,7 +116,7 @@ optimization and limits numerical library threads to one. Scripts return nonzero
 
 `run_all.sh` rewrites every committed result log, the environment record, timings, and generated JSON
 summaries. Elapsed times and small floating-point residuals may vary; exact conclusions must agree.
-The independent implementation checks all 55,198 unoriented parent cuts and binary support constraints;
+The independent implementation checks all 61,633 unoriented parent cuts and binary support constraints;
 its default numerical component checks first/middle/last cuts in lexicographic order for each N≤15 cell.
 No historical exhaustive numerical residual is presented as newly reproduced.
 
@@ -162,7 +162,7 @@ the analytic arguments. This pre-release does not claim a completed human public
 ## Reproduce the article graphics
 
 The verifier suite includes `support.py`, which exports exact squared-modulus
-polynomials and checks the computational-basis support of the eight original
+polynomials and checks the computational-basis support of the nine original
 graph-branch states. Equal compressed-cell sizes are not equal probabilities;
 the support formula is basis-dependent and does not cover arbitrary isometries.
 
@@ -170,3 +170,11 @@ Figure generation has separate dependencies in `requirements-figures.txt`. After
 running the verifier suite, run `.venv/bin/python figures/build.py` to reproduce
 the vector PDFs and the exact-data validation record. See [figures/README.md](figures/README.md).
 No plotting package is needed to run the verifiers.
+
+The p11 parent is reconstructed by `parent11.py`, invoked by `reconstruct.py`.
+It checks the GF121 Hermitian identity, all12,869 nonempty minors, all12,870 balanced-cut
+orientations of the graph and a failing one-edge mutation. The parent parameters were
+previously recorded in the Huber–Wyderka table citing Grassl–Rötteler; this package supplies
+an explicit searched matrix and graph certificate, not a new parent existence claim.
+`data/parent11_certificate.json` contains the matrix, graph conversion and negative control.
+The existing symmetry inventory covers the previous eight states only; 15_22 is unclassified.

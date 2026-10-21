@@ -70,5 +70,14 @@
     },
     "ordered_cut_rank_sha256": "e9e17f36113df32f3bff0d67dd5108c5405de03736ea6e17e3fb00addd7ddb53",
     "matrix_sha256": "5a6e0726f4404ee1392b2ce74866024e08b4b34b914c7e027356ecdf7a76d124"
+  },
+  "15_22": {
+    "cut_size": 8,
+    "all_balanced_cuts": 12870,
+    "rank_histogram": {
+      "8": 12870
+    },
+    "ordered_cut_rank_sha256": "e9e17f36113df32f3bff0d67dd5108c5405de03736ea6e17e3fb00addd7ddb53",
+    "matrix_sha256": "43c4abe3c73e61d0234c8861c83ace55343c8ebc8280c63589a0894e20fcf582"
   }
 }
