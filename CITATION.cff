@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this code and data together with the accompanying article when published. Version 0.1 is a pre-release."
+type: software
+title: "Companion code and data: coupled-branch AME states"
+authors:
+  - family-names: Pandya
+    given-names: Palash
+    affiliation: "Center for Theoretical Physics, Polish Academy of Sciences, Warsaw, Poland"
+    email: ppandya@cft.edu.pl
+version: "0.1"
+repository-code: "https://github.com/palashpandya/coupled-branch-ame"
+url: "https://github.com/palashpandya/coupled-branch-ame"
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - absolutely maximally entangled states
+  - coupled branches
+  - quantum error correction
+  - exact verification
+abstract: >-
+  Exact finite-field, rational and cyclotomic certificates for coupled-branch
+  AME states with 13, 15 and 17 parties, symmetric redesigns, and scoped rank
+  obstructions. The manuscript is not included. Version 0.1 is a pre-release.

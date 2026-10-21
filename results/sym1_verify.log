@@ -1,0 +1,24 @@
+binary 13 complete 2
+binary 15 complete 360
+binary 17 complete 2
+alternate binary 13 complete party order12
+as built 13_34 PASS
+as built 15_34 PASS
+as built 17_134 PASS
+as built 15_26 PASS
+as built 13_38 PASS
+as built 13_46 PASS
+as built 15_38 PASS
+as built 15_46 PASS
+redesign 13_34 PASS 4
+redesign 15_34 PASS 2
+redesign 17_134 PASS 1
+redesign 15_26 PASS 1
+redesign 13_38 PASS 6
+redesign 13_46 PASS 2
+redesign 15_38 PASS 3
+redesign 15_46 PASS 2
+redesign family_15_62 PASS 15
+ALL PASS 8.37439805304166 seconds 75884 KiB
+
+[runner] exit=0 elapsed_seconds=8.405

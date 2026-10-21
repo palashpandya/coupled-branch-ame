@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact rational/integer; no solver",
+  "general_rank_certificates": [
+    {
+      "rank_upper_bound": 8,
+      "rows_reconstructed": 57,
+      "column_slacks": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "contradiction": "-3328/492545"
+    },
+    {
+      "rank_upper_bound": 5,
+      "rows_reconstructed": 57,
+      "column_slacks": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "contradiction": "-1552/30667"
+    }
+  ],
+  "C15_binary": {
+    "order": 3,
+    "trace": 2,
+    "multiplicities": [
+      4,
+      2,
+      2
+    ],
+    "signed_column_images": [
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        7,
+        -1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        -1
+      ],
+      [
+        6,
+        1
+      ]
+    ]
+  },
+  "input_sha256": {
+    "o4_lp_certificates.json": "7a288fd9f34a275930c4e3c3641a70909e22f140e9472b9aaf90e7e83b9bb809",
+    "sym1_external_spec.json": "342c2143953e825fa894516628231b66cc8b1ce4fc899d3460396df336ded84a"
+  }
+}
+
+[runner] exit=0 elapsed_seconds=0.027

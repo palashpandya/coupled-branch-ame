@@ -1,0 +1,74 @@
+{
+  "13_34": {
+    "cut_size": 7,
+    "all_balanced_cuts": 3432,
+    "rank_histogram": {
+      "7": 3432
+    },
+    "ordered_cut_rank_sha256": "8b796469efa16cbce94f2af4bccf374020627c4c2922c036108c96d195b67cfa",
+    "matrix_sha256": "a621d9163afa5d65931516c4b6c11242a36fb475b14c457a5f388e4ea3e26a00"
+  },
+  "15_34": {
+    "cut_size": 8,
+    "all_balanced_cuts": 12870,
+    "rank_histogram": {
+      "8": 12870
+    },
+    "ordered_cut_rank_sha256": "e9e17f36113df32f3bff0d67dd5108c5405de03736ea6e17e3fb00addd7ddb53",
+    "matrix_sha256": "1faff951b81d72dd808164311732a79519d9a0c70fac9c91e10568bc98bb6b93"
+  },
+  "17_134": {
+    "cut_size": 9,
+    "all_balanced_cuts": 48620,
+    "rank_histogram": {
+      "9": 48620
+    },
+    "ordered_cut_rank_sha256": "c7438d2365747b75dd26754f44a86e56596d3ef9567786417c865b8b4baa4d74",
+    "matrix_sha256": "5c99fa1bfa0b0fb91f9de66ef83fdb124a312a3ae9d9e0d1028200a62c0a7f38"
+  },
+  "15_26": {
+    "cut_size": 8,
+    "all_balanced_cuts": 12870,
+    "rank_histogram": {
+      "8": 12870
+    },
+    "ordered_cut_rank_sha256": "e9e17f36113df32f3bff0d67dd5108c5405de03736ea6e17e3fb00addd7ddb53",
+    "matrix_sha256": "66707f24cca18a727c3c4da1b4acdb82fd0ec3d4b5654f4c4fd3a6a62107737d"
+  },
+  "13_38": {
+    "cut_size": 7,
+    "all_balanced_cuts": 3432,
+    "rank_histogram": {
+      "7": 3432
+    },
+    "ordered_cut_rank_sha256": "8b796469efa16cbce94f2af4bccf374020627c4c2922c036108c96d195b67cfa",
+    "matrix_sha256": "f11b77ee9d38f280650aa40a0d461517e7ce6444cca205d0638fc428bd8a27db"
+  },
+  "13_46": {
+    "cut_size": 7,
+    "all_balanced_cuts": 3432,
+    "rank_histogram": {
+      "7": 3432
+    },
+    "ordered_cut_rank_sha256": "8b796469efa16cbce94f2af4bccf374020627c4c2922c036108c96d195b67cfa",
+    "matrix_sha256": "42b6ea1142bb5de0cf4a7597cbccb672ea4e1d316d7e81f9d0fbcf1da90f588d"
+  },
+  "15_38": {
+    "cut_size": 8,
+    "all_balanced_cuts": 12870,
+    "rank_histogram": {
+      "8": 12870
+    },
+    "ordered_cut_rank_sha256": "e9e17f36113df32f3bff0d67dd5108c5405de03736ea6e17e3fb00addd7ddb53",
+    "matrix_sha256": "841ff20a6a14b9ef2482fa4a177afcfc4e6b99b7519b31db71f2370c43fb775f"
+  },
+  "15_46": {
+    "cut_size": 8,
+    "all_balanced_cuts": 12870,
+    "rank_histogram": {
+      "8": 12870
+    },
+    "ordered_cut_rank_sha256": "e9e17f36113df32f3bff0d67dd5108c5405de03736ea6e17e3fb00addd7ddb53",
+    "matrix_sha256": "5a6e0726f4404ee1392b2ce74866024e08b4b34b914c7e027356ecdf7a76d124"
+  }
+}

@@ -1,0 +1,10 @@
+o3_verify: exit=0, seconds=5.189
+sym1_verify: exit=0, seconds=8.405
+independent: exit=0, seconds=1.596
+rank_and_c15: exit=0, seconds=0.027
+farkas_symbolic: exit=0, seconds=1.203
+permutation_cycles: exit=0, seconds=0.018
+parent13: exit=0, seconds=0.066
+reconstruct: exit=0, seconds=1.705
+inventory: exit=0, seconds=0.032
+total_seconds=18.242

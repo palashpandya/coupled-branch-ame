@@ -1,0 +1,314 @@
+{
+  "status": "PASS",
+  "generator_inventory_checks": {
+    "15_26": {
+      "monomial_lifts": 28,
+      "W_logical_lifts": 182,
+      "W_permutation_order": 7
+    }
+  },
+  "arithmetic": "exact integers, rational arithmetic and cyclotomic polynomial quotients; standard library only",
+  "as_built": {
+    "13_34": {
+      "binary_weights": {
+        "0": 1,
+        "8": 81,
+        "10": 120,
+        "12": 54,
+        "7": 36,
+        "9": 100,
+        "11": 108,
+        "13": 12
+      },
+      "new_parent_cut_orientations": 1716,
+      "complete_permutation_order": 8,
+      "unsigned_local_kernel_order": 4896,
+      "conditioned_permutation_order": 1,
+      "structured_permutation_order": 1,
+      "structured_local_projective_order": 596605170923275264
+    },
+    "15_34": {
+      "binary_weights": {
+        "0": 1,
+        "8": 405,
+        "10": 1260,
+        "12": 1890,
+        "14": 540
+      },
+      "new_parent_cut_orientations": 6435,
+      "complete_permutation_order": 32,
+      "unsigned_local_kernel_order": 4896,
+      "conditioned_permutation_order": 2,
+      "structured_permutation_order": 1,
+      "structured_local_projective_order": 1379351155174612410368
+    },
+    "17_134": {
+      "binary_weights": {
+        "0": 1,
+        "13": 420,
+        "10": 168,
+        "12": 396,
+        "15": 264,
+        "9": 70,
+        "14": 360,
+        "11": 264,
+        "16": 99,
+        "17": 6
+      },
+      "new_parent_cut_orientations": 24310,
+      "complete_permutation_order": 2,
+      "unsigned_local_kernel_order": 300696,
+      "conditioned_permutation_order": 1,
+      "structured_permutation_order": 1,
+      "structured_local_projective_order": 675393367065576099413046079000576
+    },
+    "15_26": {
+      "binary_weights": {
+        "0": 1,
+        "8": 405,
+        "10": 1260,
+        "12": 1890,
+        "14": 540
+      },
+      "new_parent_cut_orientations": 6435,
+      "complete_permutation_order": 28,
+      "unsigned_local_kernel_order": 14,
+      "conditioned_permutation_order": 14,
+      "structured_permutation_order": 1,
+      "structured_local_projective_order": 32254987351648575488
+    },
+    "13_38": {
+      "binary_weights": {
+        "0": 1,
+        "8": 81,
+        "10": 120,
+        "12": 54,
+        "7": 36,
+        "9": 100,
+        "11": 108,
+        "13": 12
+      },
+      "new_parent_cut_orientations": 1716,
+      "complete_permutation_order": 4,
+      "unsigned_local_kernel_order": 6840,
+      "conditioned_permutation_order": 1,
+      "structured_permutation_order": 1,
+      "structured_local_projective_order": 2266434477123748864
+    },
+    "13_46": {
+      "binary_weights": {
+        "0": 1,
+        "8": 81,
+        "10": 120,
+        "12": 54,
+        "7": 36,
+        "9": 100,
+        "11": 108,
+        "13": 12
+      },
+      "new_parent_cut_orientations": 1716,
+      "complete_permutation_order": 2,
+      "unsigned_local_kernel_order": 12144,
+      "conditioned_permutation_order": 1,
+      "structured_permutation_order": 1,
+      "structured_local_projective_order": 22440575418388808704
+    },
+    "15_38": {
+      "binary_weights": {
+        "0": 1,
+        "8": 405,
+        "10": 1260,
+        "12": 1890,
+        "14": 540
+      },
+      "new_parent_cut_orientations": 6435,
+      "complete_permutation_order": 8,
+      "unsigned_local_kernel_order": 6840,
+      "conditioned_permutation_order": 1,
+      "structured_permutation_order": 1,
+      "structured_local_projective_order": 6545462769933386719232
+    },
+    "15_46": {
+      "binary_weights": {
+        "0": 1,
+        "8": 405,
+        "10": 1260,
+        "12": 1890,
+        "14": 540
+      },
+      "new_parent_cut_orientations": 6435,
+      "complete_permutation_order": 2,
+      "unsigned_local_kernel_order": 12144,
+      "conditioned_permutation_order": 1,
+      "structured_permutation_order": 1,
+      "structured_local_projective_order": 94968515170621438435328
+    }
+  },
+  "redesigned": {
+    "13_34": {
+      "binary_weights": {
+        "0": 1,
+        "10": 120,
+        "7": 36,
+        "11": 108,
+        "9": 100,
+        "8": 81,
+        "12": 54,
+        "13": 12
+      },
+      "new_parent_cut_orientations": 1716,
+      "certified_group_order": 4,
+      "exact_logical_eigenvalue_multiplicities": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "isometry": "exact spectral-projector Gram-Schmidt; rank bounds checked in cyclotomic field"
+    },
+    "15_34": {
+      "binary_weights": {
+        "0": 1,
+        "8": 405,
+        "10": 1260,
+        "12": 1890,
+        "14": 540
+      },
+      "new_parent_cut_orientations": 6435,
+      "certified_group_order": 2,
+      "exact_logical_eigenvalue_multiplicities": [
+        4,
+        4
+      ],
+      "isometry": "exact spectral-projector Gram-Schmidt; rank bounds checked in cyclotomic field"
+    },
+    "17_134": {
+      "binary_weights": {
+        "0": 1,
+        "13": 420,
+        "10": 168,
+        "12": 396,
+        "15": 264,
+        "9": 70,
+        "14": 360,
+        "11": 264,
+        "16": 99,
+        "17": 6
+      },
+      "new_parent_cut_orientations": 0,
+      "certified_group_order": 1,
+      "isometry": "coordinate inclusion"
+    },
+    "15_26": {
+      "binary_weights": {
+        "0": 1,
+        "8": 405,
+        "10": 1260,
+        "12": 1890,
+        "14": 540
+      },
+      "new_parent_cut_orientations": 0,
+      "certified_group_order": 1,
+      "isometry": "coordinate inclusion"
+    },
+    "13_38": {
+      "binary_weights": {
+        "0": 1,
+        "10": 120,
+        "7": 36,
+        "11": 108,
+        "9": 100,
+        "8": 81,
+        "12": 54,
+        "13": 12
+      },
+      "new_parent_cut_orientations": 1716,
+      "certified_group_order": 6,
+      "exact_logical_eigenvalue_multiplicities": [
+        3,
+        3,
+        2,
+        3,
+        3,
+        2
+      ],
+      "isometry": "exact spectral-projector Gram-Schmidt; rank bounds checked in cyclotomic field"
+    },
+    "13_46": {
+      "binary_weights": {
+        "0": 1,
+        "10": 120,
+        "7": 36,
+        "11": 108,
+        "9": 100,
+        "8": 81,
+        "12": 54,
+        "13": 12
+      },
+      "new_parent_cut_orientations": 1716,
+      "certified_group_order": 2,
+      "exact_logical_eigenvalue_multiplicities": [
+        8,
+        8
+      ],
+      "isometry": "exact spectral-projector Gram-Schmidt; rank bounds checked in cyclotomic field"
+    },
+    "15_38": {
+      "binary_weights": {
+        "0": 1,
+        "8": 405,
+        "10": 1260,
+        "12": 1890,
+        "14": 540
+      },
+      "new_parent_cut_orientations": 6435,
+      "certified_group_order": 3,
+      "exact_logical_eigenvalue_multiplicities": [
+        2,
+        4,
+        2
+      ],
+      "isometry": "exact spectral-projector Gram-Schmidt; rank bounds checked in cyclotomic field"
+    },
+    "15_46": {
+      "binary_weights": {
+        "0": 1,
+        "8": 405,
+        "10": 1260,
+        "12": 1890,
+        "14": 540
+      },
+      "new_parent_cut_orientations": 6435,
+      "certified_group_order": 2,
+      "exact_logical_eigenvalue_multiplicities": [
+        4,
+        4
+      ],
+      "isometry": "exact spectral-projector Gram-Schmidt; rank bounds checked in cyclotomic field"
+    },
+    "family_15_62": {
+      "binary_weights": {
+        "0": 1,
+        "8": 405,
+        "10": 1260,
+        "12": 1890,
+        "14": 540
+      },
+      "new_parent_cut_orientations": 6435,
+      "certified_group_order": 15,
+      "exact_logical_eigenvalue_multiplicities": [
+        4,
+        2,
+        2
+      ],
+      "isometry": "exact spectral-projector Gram-Schmidt; rank bounds checked in cyclotomic field"
+    }
+  },
+  "negative_controls": [
+    "wrong cyclotomic phase rejected",
+    "singular prime local map rejected"
+  ],
+  "wall_seconds": 8.37439805304166,
+  "max_rss_kib": 75884,
+  "processes": 1
+}

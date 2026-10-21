@@ -1,0 +1,202 @@
+{
+  "description": "Source hashes and packaging transformations; original research basenames retained, no external filesystem dependencies.",
+  "files": [
+    {
+      "source_name": "o3_external_spec.json",
+      "destination": "data/o3_external_spec.json",
+      "source_sha256": "90cb2b62d7a6b239d9a2ef713d2b955fbae44f4ef620cefa30155150a3eda927",
+      "packaged_sha256": "90cb2b62d7a6b239d9a2ef713d2b955fbae44f4ef620cefa30155150a3eda927",
+      "adapted": false
+    },
+    {
+      "source_name": "o3_binary_certificates.json",
+      "destination": "data/o3_binary_certificates.json",
+      "source_sha256": "4c6637cde767b1fa4fff99d130372214c74bac1912ac44d625f21b496c1834d2",
+      "packaged_sha256": "4c6637cde767b1fa4fff99d130372214c74bac1912ac44d625f21b496c1834d2",
+      "adapted": false
+    },
+    {
+      "source_name": "o3_construction_certificates.json",
+      "destination": "data/o3_construction_certificates.json",
+      "source_sha256": "46bac827c151c6836d3cb8a11caa625f436fac9382832ac6a8b670b36bf41091",
+      "packaged_sha256": "46bac827c151c6836d3cb8a11caa625f436fac9382832ac6a8b670b36bf41091",
+      "adapted": false
+    },
+    {
+      "source_name": "o3_circle13_certificate.json",
+      "destination": "data/o3_circle13_certificate.json",
+      "source_sha256": "7ceb5291ac12128f9bfa793173d9b1e93925329ff345bcefa9f81370efcc41ab",
+      "packaged_sha256": "7ceb5291ac12128f9bfa793173d9b1e93925329ff345bcefa9f81370efcc41ab",
+      "adapted": false
+    },
+    {
+      "source_name": "o3_lp_certificates.json",
+      "destination": "data/o3_lp_certificates.json",
+      "source_sha256": "1c1cb8bcb9c22be8b8dc1e12a965a932104bcef431ee1aca449a9192573c19f4",
+      "packaged_sha256": "1c1cb8bcb9c22be8b8dc1e12a965a932104bcef431ee1aca449a9192573c19f4",
+      "adapted": false
+    },
+    {
+      "source_name": "o3_nonstabilizer_search.json",
+      "destination": "data/o3_nonstabilizer_search.json",
+      "source_sha256": "f964e9c6362038b06d252c544cf5a5be57bc267611cffe820eeb585506e1114d",
+      "packaged_sha256": "f964e9c6362038b06d252c544cf5a5be57bc267611cffe820eeb585506e1114d",
+      "adapted": false
+    },
+    {
+      "source_name": "o3_n17_extensions.json",
+      "destination": "data/o3_n17_extensions.json",
+      "source_sha256": "0e450df32d4f8a4920a6202c9d910e5667ca3dee6758d7241eda39c6e66f4d1e",
+      "packaged_sha256": "0e450df32d4f8a4920a6202c9d910e5667ca3dee6758d7241eda39c6e66f4d1e",
+      "adapted": false
+    },
+    {
+      "source_name": "sym1_external_spec.json",
+      "destination": "data/sym1_external_spec.json",
+      "source_sha256": "342c2143953e825fa894516628231b66cc8b1ce4fc899d3460396df336ded84a",
+      "packaged_sha256": "342c2143953e825fa894516628231b66cc8b1ce4fc899d3460396df336ded84a",
+      "adapted": false
+    },
+    {
+      "source_name": "sym1_binary_aut.json",
+      "destination": "data/sym1_binary_aut.json",
+      "source_sha256": "f33c4b80d5a628951f8e9af4331d2c6b60948a19e4e3d10cc966aea50b2f9c41",
+      "packaged_sha256": "f33c4b80d5a628951f8e9af4331d2c6b60948a19e4e3d10cc966aea50b2f9c41",
+      "adapted": false
+    },
+    {
+      "source_name": "sym1_parent_results.json",
+      "destination": "data/sym1_parent_results.json",
+      "source_sha256": "90277e889650a25c01c717a136568ab898cbc1401cf86f1906982c604a105e12",
+      "packaged_sha256": "90277e889650a25c01c717a136568ab898cbc1401cf86f1906982c604a105e12",
+      "adapted": false
+    },
+    {
+      "source_name": "sym1_asbuilt.json",
+      "destination": "data/sym1_asbuilt.json",
+      "source_sha256": "f558580b853b92b287ccf6da55526574b92da761e75e05952e8d6c72a608fbe0",
+      "packaged_sha256": "f558580b853b92b287ccf6da55526574b92da761e75e05952e8d6c72a608fbe0",
+      "adapted": false
+    },
+    {
+      "source_name": "sym1_symmetry_generators.json",
+      "destination": "data/sym1_symmetry_generators.json",
+      "source_sha256": "b3abb8ec1bc8619d7eac2288c59d205bcef4c24806ac993051dddcb97c71a1da",
+      "packaged_sha256": "b3abb8ec1bc8619d7eac2288c59d205bcef4c24806ac993051dddcb97c71a1da",
+      "adapted": false
+    },
+    {
+      "source_name": "sym1_alternates.json",
+      "destination": "data/sym1_alternates.json",
+      "source_sha256": "50e7eb90ec0092c0a6c2e4072683074b564596fae78c66aaf7d5a9078c48b86e",
+      "packaged_sha256": "50e7eb90ec0092c0a6c2e4072683074b564596fae78c66aaf7d5a9078c48b86e",
+      "adapted": false
+    },
+    {
+      "source_name": "sym1_groups.json",
+      "destination": "data/sym1_groups.json",
+      "source_sha256": "f47b621738064ccc4e527a0fd2a2a904e3ae4c9ae4d128e8564569900fbdcd5d",
+      "packaged_sha256": "f47b621738064ccc4e527a0fd2a2a904e3ae4c9ae4d128e8564569900fbdcd5d",
+      "adapted": false
+    },
+    {
+      "source_name": "o4_external_spec.json",
+      "destination": "data/o4_external_spec.json",
+      "source_sha256": "bf1d164c3a422fcfc075d34b8f4934064d6b5b8ad086d2dd89af30e055e4b595",
+      "packaged_sha256": "d112d06e866f33027da2493154cf4c9ba84d24aebfce6a64e864b9309f519629",
+      "adapted": true
+    },
+    {
+      "source_name": "o4_lp_certificates.json",
+      "destination": "data/o4_lp_certificates.json",
+      "source_sha256": "7a288fd9f34a275930c4e3c3641a70909e22f140e9472b9aaf90e7e83b9bb809",
+      "packaged_sha256": "7a288fd9f34a275930c4e3c3641a70909e22f140e9472b9aaf90e7e83b9bb809",
+      "adapted": false
+    },
+    {
+      "source_name": "sym1_notes.md",
+      "destination": "docs/sym1_notes.md",
+      "source_sha256": "e38b89cea92dc32f26f57967a6520c0c39799a0c45c0f6cf0e85c67970eb5d26",
+      "packaged_sha256": "cf4e1e8dc9dcee0e2bf22d240cd5aa8e2483d48fe41e0ad01605c959536bcbe7",
+      "adapted": true
+    },
+    {
+      "source_name": "o4_algebraic_notes.md",
+      "destination": "docs/o4_algebraic_notes.md",
+      "source_sha256": "1c0f68027c293c1da42ff12edc9fa36fa79dd78974ff99c52c50dfbc3a875bb6",
+      "packaged_sha256": "161f4a2d77d11445a327964621d9d272d4998bcc417fad6efbe0a9dd89d10a94",
+      "adapted": true
+    },
+    {
+      "source_name": "o3_verify.py",
+      "destination": "coupled_ame/o3_verify.py",
+      "source_sha256": "deac42659ef318eb3cd0dd2a0d1b15109b129d14b7c5f775218745a3a6b4e852",
+      "packaged_sha256": "448d4e09c7873448e14a29b0b4d2f46ab914a31113c9c127b288261a63a9d048",
+      "adapted": true
+    },
+    {
+      "source_name": "sym1_verify.py",
+      "destination": "coupled_ame/sym1_verify.py",
+      "source_sha256": "7cbcb2c295908dff0ddadea2477454a1a8d817ba06a081244b847c33746dc682",
+      "packaged_sha256": "fae07f64f470d21fdca9a7ababb786520bbdca25758840328e61c1ce2174b68c",
+      "adapted": true
+    },
+    {
+      "source_name": "o3_codes.py",
+      "destination": "coupled_ame/codes.py",
+      "source_sha256": "da1473b3510f59cbaf075413657320ff4b24234931ab42cf79fc41d7f8b56f90",
+      "packaged_sha256": "df22cb8a0106d28335b1c3a2bc543d22d65ea34565daf8a74382d30a83cd3b53",
+      "adapted": true
+    },
+    {
+      "source_name": "o3_construct.py",
+      "destination": "coupled_ame/construction.py",
+      "source_sha256": "08c24faf8d571ecd0c9c1d79444794e251ac28bff2bde74a80ed1ba3e491d7d7",
+      "packaged_sha256": "9396f5ad62c3fd9e161e9fdb76bd0cd692d1bf750c30038f31a278703ad1d1ac",
+      "adapted": true
+    },
+    {
+      "source_name": "o3_circle13.py",
+      "destination": "coupled_ame/circle13.py",
+      "source_sha256": "bc167e5e4239220c4d2f2b69aed35d6469eb7c540c80098f8d54f8aedde14c8f",
+      "packaged_sha256": "92a38d2a4a1df3e3f869be81ae6af616a52bf54125b5ef3986eac8f4a72cd782",
+      "adapted": true
+    },
+    {
+      "source_name": "o4_verify_ame1326.py",
+      "destination": "coupled_ame/rank_parent.py",
+      "source_sha256": "6577b87f9a2f6cb29b90baea8f77799929f0f2373d29d84bbe26b490fc952605",
+      "packaged_sha256": "6577b87f9a2f6cb29b90baea8f77799929f0f2373d29d84bbe26b490fc952605",
+      "adapted": false
+    },
+    {
+      "source_name": "R01b-checks.py",
+      "destination": "coupled_ame/rank_and_c15.py",
+      "source_sha256": "463d83b77cc1d2682a59d6c7c9792234cc099cfec01a4544b745ffd68ccb0927",
+      "packaged_sha256": "827e669c85c4a8d3523863c9e0c9bca3bfb64a7de25cb30f4f8e16943da231d8",
+      "adapted": true
+    },
+    {
+      "source_name": "check_farkas.py",
+      "destination": "coupled_ame/farkas_symbolic.py",
+      "source_sha256": "b838dde95453242ca1be40515202b145645f87b9bcbfa3919c994673e74df3ce",
+      "packaged_sha256": "82d7c1d3b3213562252360bf1e0509cd93306bc8d0bf123884b63569f29a7af0",
+      "adapted": true
+    },
+    {
+      "source_name": "verify_o3.py",
+      "destination": "coupled_ame/independent_core.py",
+      "source_sha256": "ca1cd3b06c52325e1fa1a3230e396b5c42a5055e5fc24d07d241548cc757a2a3",
+      "packaged_sha256": "9531ff80243558efab68b25b4cc85ca1d23f0c5e1160c03c4748f876abbbc7b2",
+      "adapted": true
+    }
+  ],
+  "adaptations": [
+    "Input/output paths made clone-relative; outputs go to results.",
+    "Construction/search entry points omitted from helper modules; reconstruction verifier calls the needed functions.",
+    "Independent numerical marginal helper retained; default runner samples three deterministic cuts while exact checks cover every cut.",
+    "O4 bundle limited to target-parent evidence; unrelated mixture/search notes omitted.",
+    "Farkas checker asserts the symbolic identity; package rejects optimized Python.",
+    "R02 permutation check reimplemented as permutation_cycles.py; compares the six stored cycle decompositions."
+  ]
+}

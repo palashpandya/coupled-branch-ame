@@ -1,135 +1,93 @@
 {
-  "schema_version": 1,
-  "recorded_on": "2026-10-21",
-  "source": "../docs/provenance.json",
-  "status": "announcement_transcription",
-  "note": "Reported results from the source announcement. No construction data or exact verifier is included yet.",
+  "schema_version": 2,
+  "status": "exact_certificates_packaged",
+  "article_draft": "R02, 2026-10-21",
   "infinite_families": [
     {
-      "id": "N13",
       "N": 13,
-      "k": 6,
-      "local_dimension": "2*p",
-      "prime_required": true,
-      "sufficient_prime_threshold": 17,
-      "binary_branches": 16
+      "prime_threshold": 17,
+      "K": 16,
+      "scope": "Cauchy family, analytic proof"
     },
     {
-      "id": "N15",
       "N": 15,
-      "k": 7,
-      "local_dimension": "2*p",
-      "prime_required": true,
-      "sufficient_prime_threshold": 17,
-      "binary_branches": 8
+      "prime_threshold": 17,
+      "K": 8,
+      "scope": "Cauchy family, analytic proof"
     },
     {
-      "id": "N17",
       "N": 17,
-      "k": 8,
-      "local_dimension": "2*p",
-      "prime_required": true,
-      "sufficient_prime_threshold": 67,
-      "binary_branches": 64
+      "prime_threshold": 67,
+      "K": 64,
+      "scope": "Cauchy family, analytic proof"
     }
   ],
   "finite_examples": [
     {
-      "id": "ame-13-34",
+      "key": "13_34",
       "N": 13,
       "d": 34,
       "p": 17,
-      "k": 6,
-      "binary_branches": 16,
-      "below_stated_family_threshold": false,
-      "source_reports_exact_verification": true,
-      "repository_verification_status": "not_run",
-      "construction_data_status": "awaiting_import"
+      "K": 16,
+      "verifier": "coupled_ame/o3_verify.py"
     },
     {
-      "id": "ame-13-38",
-      "N": 13,
-      "d": 38,
-      "p": 19,
-      "k": 6,
-      "binary_branches": 16,
-      "below_stated_family_threshold": false,
-      "source_reports_exact_verification": true,
-      "repository_verification_status": "not_run",
-      "construction_data_status": "awaiting_import"
-    },
-    {
-      "id": "ame-13-46",
-      "N": 13,
-      "d": 46,
-      "p": 23,
-      "k": 6,
-      "binary_branches": 16,
-      "below_stated_family_threshold": false,
-      "source_reports_exact_verification": true,
-      "repository_verification_status": "not_run",
-      "construction_data_status": "awaiting_import"
-    },
-    {
-      "id": "ame-15-26",
-      "N": 15,
-      "d": 26,
-      "p": 13,
-      "k": 7,
-      "binary_branches": 8,
-      "below_stated_family_threshold": true,
-      "source_reports_exact_verification": true,
-      "repository_verification_status": "not_run",
-      "construction_data_status": "awaiting_import"
-    },
-    {
-      "id": "ame-15-34",
+      "key": "15_34",
       "N": 15,
       "d": 34,
       "p": 17,
-      "k": 7,
-      "binary_branches": 8,
-      "below_stated_family_threshold": false,
-      "source_reports_exact_verification": true,
-      "repository_verification_status": "not_run",
-      "construction_data_status": "awaiting_import"
+      "K": 8,
+      "verifier": "coupled_ame/o3_verify.py"
     },
     {
-      "id": "ame-15-38",
-      "N": 15,
-      "d": 38,
-      "p": 19,
-      "k": 7,
-      "binary_branches": 8,
-      "below_stated_family_threshold": false,
-      "source_reports_exact_verification": true,
-      "repository_verification_status": "not_run",
-      "construction_data_status": "awaiting_import"
-    },
-    {
-      "id": "ame-15-46",
-      "N": 15,
-      "d": 46,
-      "p": 23,
-      "k": 7,
-      "binary_branches": 8,
-      "below_stated_family_threshold": false,
-      "source_reports_exact_verification": true,
-      "repository_verification_status": "not_run",
-      "construction_data_status": "awaiting_import"
-    },
-    {
-      "id": "ame-17-134",
+      "key": "17_134",
       "N": 17,
       "d": 134,
       "p": 67,
-      "k": 8,
-      "binary_branches": 64,
-      "below_stated_family_threshold": false,
-      "source_reports_exact_verification": true,
-      "repository_verification_status": "not_run",
-      "construction_data_status": "awaiting_import"
+      "K": 64,
+      "verifier": "coupled_ame/o3_verify.py"
+    },
+    {
+      "key": "15_26",
+      "N": 15,
+      "d": 26,
+      "p": 13,
+      "K": 8,
+      "verifier": "coupled_ame/o3_verify.py"
+    },
+    {
+      "key": "13_38",
+      "N": 13,
+      "d": 38,
+      "p": 19,
+      "K": 16,
+      "verifier": "coupled_ame/o3_verify.py"
+    },
+    {
+      "key": "13_46",
+      "N": 13,
+      "d": 46,
+      "p": 23,
+      "K": 16,
+      "verifier": "coupled_ame/o3_verify.py"
+    },
+    {
+      "key": "15_38",
+      "N": 15,
+      "d": 38,
+      "p": 19,
+      "K": 8,
+      "verifier": "coupled_ame/o3_verify.py"
+    },
+    {
+      "key": "15_46",
+      "N": 15,
+      "d": 46,
+      "p": 23,
+      "K": 8,
+      "verifier": "coupled_ame/o3_verify.py"
     }
-  ]
+  ],
+  "exception": "AME(15,26), reconstructed HZ circle parent",
+  "priority": "unestablished; no universal novelty claim"
 }
-
