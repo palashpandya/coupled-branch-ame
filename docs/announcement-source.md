@@ -52,4 +52,3 @@ last_modified_at: 2026-10-21
 
 <p><a class="link-arrow" href="{{ '/research/ame/' | relative_url }}">← Back to AME research</a></p>
 </article>
-
