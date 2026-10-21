@@ -34,7 +34,7 @@ unestablished. Neither a new coupling principle nor first eventual existence is 
 
 ## Results and how they are established
 
-Numbers and labels refer to the R02 article draft of 21 October 2026. Full paths and evidence boundaries
+Numbers and labels refer to the article draft of 21 October 2026. Full paths and evidence boundaries
 are in [docs/CLAIM_MAP.md](docs/CLAIM_MAP.md). Verifier filenames below refer to `coupled_ame/`.
 **Exact** means finite integer/rational/finite-field/cyclotomic verification; analytic family statements
 also require the indicated written proof. **Numerical** means corroboration, not proof. **Cited** means
