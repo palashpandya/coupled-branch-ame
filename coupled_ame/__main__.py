@@ -16,7 +16,7 @@ import mpmath
     'Numerical scope: three deterministic binary cuts per original N13/N15 cell; N7/N9/N11 checks are exact only.\n'
     'All required cuts are checked exactly by two independent implementations.\n')
 start=time.perf_counter(); records=[]
-for name in ['o3_verify','sym1_verify','independent','rank_and_c15','farkas_symbolic','permutation_cycles','parent13','reconstruct','support','small_families','general_rank','n7','inventory']:
+for name in ['o3_verify','sym1_verify','independent','rank_and_c15','farkas_symbolic','permutation_cycles','parent13','reconstruct','support','small_families','general_rank','n7','prime_powers','prime_powers_independent','product_classification','kitamura96','inventory']:
     then=time.perf_counter()
     with (RESULTS/(name+'.log')).open('w') as out:
         result=subprocess.run([sys.executable,'-m','coupled_ame.'+name],cwd=ROOT,stdout=out,stderr=subprocess.STDOUT)
@@ -27,4 +27,5 @@ for name in ['o3_verify','sym1_verify','independent','rank_and_c15','farkas_symb
 records.append(f'total_seconds={time.perf_counter()-start:.3f}')
 (RESULTS/'timings.txt').write_text('\n'.join(records)+'\n')
 if any('exit=0,' not in s for s in records[:-1]):sys.exit(1)
-print('[PASS] all verifier modules')
+external=__import__('json').loads((RESULTS/'kitamura96.json').read_text())
+print('[PASS] bundled verifier modules; external Kitamura status: '+external['status'])

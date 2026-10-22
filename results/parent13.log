@@ -2,4 +2,4 @@ Parent keys: ['p', 'superregular_matrix', 'graph', 'certificate']
 [PASS] AME(14,13) parent {'classification': 'exact', 'balanced_cut_orientations': 3432, 'rank_histogram': {7: 3432}}
 No rank9..13 binary ingredient is supplied; AME(13,26) remains unresolved here.
 
-[runner] exit=0 elapsed_seconds=0.073
+[runner] exit=0 elapsed_seconds=0.072

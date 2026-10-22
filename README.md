@@ -1,11 +1,11 @@
-# Coupled-branch AME states in dimensions twice a prime
+# Coupled-branch AME states in dimensions twice a prime power
 
 [![code: MIT](https://img.shields.io/badge/code-MIT-blue)](LICENSE)
 [![data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey)](LICENSE-DATA.md)
 
 Companion code and data for the article
 
-> **Explicit absolutely maximally entangled states in dimensions twice a prime**
+> **Explicit absolutely maximally entangled states in dimensions twice a prime power**
 > In preparation, 2026; the publication reference and final article author list will be added when confirmed.
 
 **Author / repository maintainer.** Palash Pandya<br>
@@ -17,10 +17,10 @@ This repository contains data and verification code, **not the manuscript**. Ver
 no public release, tag, permanent identifier or archive is asserted.
 
 An AME(N,d) state is a pure state whose reductions to any floor(N/2) parties are maximally mixed.
-Here a coherent sum pairs binary branches with conditioned prime-dimensional AME branches. The binary
-average supplies local uniformity and the prime factor removes interference between branch labels.
+Here a coherent sum pairs binary branches with conditioned finite-field AME branches. The binary
+average supplies local uniformity and the odd factor removes interference between branch labels.
 
-The constructions give AME(N,2p) for N=9,11,13,15,17 and every prime p≥5,5,17,11,67, respectively.
+The constructions give AME(N,2q) for N=9,11,13,15,17 and every odd prime power q≥5,5,17,9,67, respectively.
 N9 and N11 retain Atlas’s K4 and Kitamura’s K2 binary branches; p5 uses Atlas’s parent and the
 Bevins–Bidav parent used by Kitamura. At p7 we supply explicit GF49 parents; p≥11 uses Cauchy,
 including the extended N11,p11 case.
@@ -32,7 +32,7 @@ The nine stored N≥13 cells are (13,34), (13,38), (13,46), (15,22), (15,26), (1
 Branch isometries also give the cyclic subgroups in Table IV, including AME(15,62) and a C15 family
 for every prime p≡1 (mod 15).
 
-The contribution is the explicit small binary ingredients, effective prime thresholds, exact certificates,
+The contribution is the explicit small binary ingredients, effective prime-power thresholds, exact certificates,
 and symmetric realizations. Coupling has precedents in Shi–Zhang–Zhao–Li, Atlas and Kitamura; Bevins–Bidav
 and Hontarenko–Życzkowski supply parent/code constructions. Publication priority remains unestablished; no new priority audit is asserted for the enlarged family. Neither a new coupling principle nor first eventual existence is claimed.
 
@@ -46,8 +46,8 @@ a written argument or external source: `inventory.py` only checks its catalogue/
 
 | # | Statement | Paper | Script | Status |
 |---|---|---|---|---|
-| 1 | Twenty cells are AME; 128,180 oriented parent cuts | Thm. I.1; Table II | `o3_verify.py`, `independent.py`, `reconstruct.py`, `small_families.py`, `n7.py` | exact |
-| 2 | Every prime p≥5,5,17,11,67 for N9,11,13,15,17; three parent constructions at N15 | Thm. I.1; Lem. IV.1 (`lem:cauchy`) | `reconstruct.py`, `inventory.py` | exact finite inputs; cited analytic Cauchy proof |
+| 1 | Twenty-three coupled cells are AME; 142,226 oriented parent cuts | Thm. I.1; Table II | `o3_verify.py`, `independent.py`, `reconstruct.py`, `small_families.py`, `n7.py`, `prime_powers.py` | exact |
+| 2 | Every odd prime power q≥5,5,17,9,67 for N9,11,13,15,17; four parent constructions at N15 | Thm. I.1; Lem. IV.1 (`lem:cauchy`) | `reconstruct.py`, `inventory.py` | exact finite inputs; cited analytic Cauchy proof |
 | 3 | Weighted coupling, conditioned-parent identity and stabilizer-projector criterion | Prop. II.1, Lem. II.2, Prop. III.1 | `o3_verify.py`, `inventory.py` | exact finite inputs; cited partial-trace/Pauli arguments |
 | 4 | Binary ranks16,8,64 and minimum stabilizer weights7,8,9; full enumerators and seeds | Prop. III.2; Eqs.(10)–(12),(A1)–(A3) | `o3_verify.py`, `reconstruct.py` | exact |
 | 5 | Cauchy and HZ circle parent graphs, all stored cut certificates | Sec. IV; Eq.(17) | `reconstruct.py` | exact; HZ formula independently implemented |
@@ -67,6 +67,20 @@ a written argument or external source: `inventory.py` only checks its catalogue/
 | 19 | Eventual existence for sufficiently large integer d at fixed N | App. E | `inventory.py` | cited Keevash/Helwig–Cui implication, no effective threshold |
 | 20 | Catalogue, data provenance and packaged-file integrity | App. A (availability) | `inventory.py` | exact file/catalogue checks; not a mathematical proof of cited results |
 | 21 | Computational-basis support fraction 1−(K−1)/(Kp), exact zeros and intensity classes | Lem. A.1 (`lem:support`); Fig. 2 | `support.py`, `o3_verify.py` | exact nine-state checks; analytic cyclotomic proof for the stated graph-branch form |
+
+| 22 | Six AME(9,q) graphs, q3,4,5,7,8,9 | Sec. VIII | `prime_powers.py`, `prime_powers_independent.py` | exact field arithmetic from defining polynomials |
+| 23 | q9 parents10,12,16; cells9_18,11_18,15_18 | Sec. IV; Table II | `prime_powers.py`, `prime_powers_independent.py` | exact Hermitian/minor/cut and binary Walsh checks |
+| 24 | Kitamura9,6:126 cuts and16-branch decomposition | Table I; Sec. VIII | `kitamura96.py` | exact when pinned external data supplied; explicit NOT_RUN otherwise; no Lean build |
+| 25 | Nine-party product classification; binary9 shadow | Cor. VIII.1 | `product_classification.py` | finite factor certificates3..2000 plus written infinite proof and cited inputs |
+
+The q9 parents are extended RS at length10, N04's explicit F81 search matrix at
+length12 (a second realization of parameters supplied by HZ TheoremS7), and HZ's
+finite M16,9 at length16. The six graph inputs and three coupled cells are in
+`data/prime_powers/`. AME(9,18) also follows from products; (11,18) and (15,18)
+do not follow from the available product inputs. This is not a priority claim.
+For extension fields, integer labels encode polynomial-basis coefficients and
+phases use the field trace, not arithmetic modulo q. See
+[the field conventions and external-data procedure](docs/R10-prime-powers.md).
 
 The original structured local group is
 `C2^(N-log2(K)) × (Cp^(N-1) ⋊ C2)`, with inversion by the last C2, modulo scalar phases.

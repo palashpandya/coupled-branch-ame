@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "status": "exact_certificates_packaged",
-  "article_draft": "R08, 2026-10-22",
+  "article_draft": "R10, 2026-10-22",
   "infinite_families": [
     {
       "N": 7,
@@ -202,5 +202,100 @@
       "verifier": "coupled_ame/o3_verify.py"
     }
   ],
-  "priority": "unestablished; no universal novelty claim"
+  "priority": "unestablished; no universal novelty claim",
+  "odd_prime_power_families": [
+    {
+      "N": 9,
+      "q_threshold": 5,
+      "K": 4
+    },
+    {
+      "N": 11,
+      "q_threshold": 5,
+      "K": 2
+    },
+    {
+      "N": 13,
+      "q_threshold": 17,
+      "K": 16
+    },
+    {
+      "N": 15,
+      "q_threshold": 9,
+      "K": 8
+    },
+    {
+      "N": 17,
+      "q_threshold": 67,
+      "K": 64
+    }
+  ],
+  "prime_power_examples": [
+    {
+      "key": "9_18",
+      "N": 9,
+      "d": 18,
+      "q": 9,
+      "K": 4,
+      "verifier": "coupled_ame/prime_powers.py"
+    },
+    {
+      "key": "11_18",
+      "N": 11,
+      "d": 18,
+      "q": 9,
+      "K": 2,
+      "verifier": "coupled_ame/prime_powers.py"
+    },
+    {
+      "key": "15_18",
+      "N": 15,
+      "d": 18,
+      "q": 9,
+      "K": 8,
+      "verifier": "coupled_ame/prime_powers.py"
+    }
+  ],
+  "nine_party_graphs": [
+    {
+      "N": 9,
+      "q": 3,
+      "verifier": "coupled_ame/prime_powers.py"
+    },
+    {
+      "N": 9,
+      "q": 4,
+      "verifier": "coupled_ame/prime_powers.py"
+    },
+    {
+      "N": 9,
+      "q": 5,
+      "verifier": "coupled_ame/prime_powers.py"
+    },
+    {
+      "N": 9,
+      "q": 7,
+      "verifier": "coupled_ame/prime_powers.py"
+    },
+    {
+      "N": 9,
+      "q": 8,
+      "verifier": "coupled_ame/prime_powers.py"
+    },
+    {
+      "N": 9,
+      "q": 9,
+      "verifier": "coupled_ame/prime_powers.py"
+    }
+  ],
+  "external_inputs": [
+    {
+      "N": 9,
+      "d": 6,
+      "source": "data/kitamura96-source.json",
+      "verifier": "coupled_ame/kitamura96.py",
+      "requires_user_supplied_data": true
+    }
+  ],
+  "classification": "For integers d>=2, AME(9,d) iff d>=3; analytic product proof with certified/cited inputs"
 }

@@ -3,4 +3,4 @@
 [PASS] {'N': 17, 'minimum_rank': 23, 'value': '-6528/6182327', 'status': 'PASS', 'next_rank': 'exact LP-feasible point; no state asserted'}
 [PASS] {'N': 19, 'minimum_rank': 19, 'value': '-16093152/697142701', 'status': 'PASS', 'next_rank': 'exact LP-feasible point; no state asserted'}
 
-[runner] exit=0 elapsed_seconds=0.045
+[runner] exit=0 elapsed_seconds=0.042

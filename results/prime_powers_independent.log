@@ -1,0 +1,74 @@
+{
+ "AME(9,3)": [
+  126,
+  0
+ ],
+ "AME(9,4)": [
+  126,
+  0
+ ],
+ "AME(9,5)": [
+  126,
+  0
+ ],
+ "AME(9,7)": [
+  126,
+  0
+ ],
+ "AME(9,8)": [
+  126,
+  0
+ ],
+ "AME(9,9)": [
+  126,
+  0
+ ],
+ "parent AME(10,9)": [
+  126,
+  0
+ ],
+ "parent AME(12,9)": [
+  462,
+  0
+ ],
+ "parent AME(16,9)": [
+  6435,
+  0
+ ],
+ "AME(9,18) parent": [
+  126,
+  0
+ ],
+ "AME(9,18) binary low words, bad": [
+  27,
+  0
+ ],
+ "AME(11,18) parent": [
+  462,
+  0
+ ],
+ "AME(11,18) binary low words, bad": [
+  66,
+  0
+ ],
+ "AME(15,18) parent": [
+  6435,
+  0
+ ],
+ "AME(15,18) binary low words, bad": [
+  513,
+  0
+ ],
+ "control: perturbed AME(9,4)": [
+  126,
+  2
+ ],
+ "control: AME(9,18) duplicate label": [
+  27,
+  18
+ ],
+ "product split fails in 3..2000": []
+}
+ALL PASS
+
+[runner] exit=0 elapsed_seconds=0.638

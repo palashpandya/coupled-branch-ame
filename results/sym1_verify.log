@@ -20,6 +20,6 @@ redesign 13_46 PASS 2
 redesign 15_38 PASS 3
 redesign 15_46 PASS 2
 redesign family_15_62 PASS 15
-ALL PASS 8.819535405025817 seconds 75080 KiB
+ALL PASS 8.610229526995681 seconds 75152 KiB
 
-[runner] exit=0 elapsed_seconds=8.854
+[runner] exit=0 elapsed_seconds=8.646

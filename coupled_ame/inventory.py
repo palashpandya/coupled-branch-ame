@@ -23,7 +23,12 @@ for c in cat['finite_examples']:
     s=spec[c['key']]
     assert all(c[k]==s[k] for k in ['N','K','p']) and c['d']==2*s['p']
 assert [(x['N'],x['prime_threshold'],x['K']) for x in cat['infinite_families']]==[(7,5,2),(9,5,4),(11,5,2),(13,17,16),(15,11,8),(17,67,64)]
-print('[PASS] catalogue agrees with twenty specifications and stated analytic thresholds')
+assert [(x['N'],x['q_threshold'],x['K']) for x in cat['odd_prime_power_families']]==[(9,5,4),(11,5,2),(13,17,16),(15,9,8),(17,67,64)]
+for c in cat['prime_power_examples']:
+ s=json.loads((DATA/'prime_powers'/('ame_'+str(c['N'])+'_18.json')).read_text())
+ assert all(c[k]==s[k] for k in ['N','q','K']) and c['d']==2*s['q']
+assert len(cat['prime_power_examples'])==3 and {c['q'] for c in cat['nine_party_graphs']}=={3,4,5,7,8,9}
+print('[PASS] catalogue agrees with twenty prime and three q9 specifications, six N9 graph inputs and stated analytic thresholds')
 readme=(ROOT/'README.md').read_text()
 for name in re.findall(r'`([a-z_]+\.py)`',readme):
     assert (ROOT/'coupled_ame'/name).is_file(),name
@@ -31,4 +36,4 @@ assert not (ROOT/'manuscript').exists() and not (ROOT/'paper').exists()
 assert not list(ROOT.rglob('*.tex'))
 print('[PASS] README verifier references exist; no manuscript files')
 print('[CITED] Source links in data/reference/README.md. No Lean build or external theorem verification performed.')
-(RESULTS/'inventory.json').write_text(json.dumps({'status':'PASS','manifest_files':len(manifest['files']),'data_files':len(checksums),'finite_cells':len(spec),'cited_sources':'metadata only; not proof verification'},indent=2)+'\n')
+(RESULTS/'inventory.json').write_text(json.dumps({'status':'PASS','manifest_files':len(manifest['files']),'data_files':len(checksums),'finite_cells':len(spec)+3,'prime_factor_cells':len(spec),'prime_power_cells':3,'cited_sources':'metadata only; not proof verification'},indent=2)+'\n')

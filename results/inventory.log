@@ -1,7 +1,5 @@
-[PASS] imported inputs and ported sources match manifest: 36
-[PASS] frozen data checksums: 31
-[PASS] catalogue agrees with twenty specifications and stated analytic thresholds
+[PASS] imported inputs and ported sources match manifest: 55
+[PASS] frozen data checksums: 47
+[PASS] catalogue agrees with twenty prime and three q9 specifications, six N9 graph inputs and stated analytic thresholds
 [PASS] README verifier references exist; no manuscript files
 [CITED] Source links in data/reference/README.md. No Lean build or external theorem verification performed.
-
-[runner] exit=0 elapsed_seconds=0.042

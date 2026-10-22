@@ -1,0 +1,87 @@
+{
+  "graph_9_3": {
+    "PASS": true,
+    "N": 9,
+    "q": 3,
+    "k": 4,
+    "cuts": 126
+  },
+  "graph_9_4": {
+    "PASS": true,
+    "N": 9,
+    "q": 4,
+    "k": 4,
+    "cuts": 126
+  },
+  "graph_9_5": {
+    "PASS": true,
+    "N": 9,
+    "q": 5,
+    "k": 4,
+    "cuts": 126
+  },
+  "graph_9_7": {
+    "PASS": true,
+    "N": 9,
+    "q": 7,
+    "k": 4,
+    "cuts": 126
+  },
+  "graph_9_8": {
+    "PASS": true,
+    "N": 9,
+    "q": 8,
+    "k": 4,
+    "cuts": 126
+  },
+  "graph_9_9": {
+    "PASS": true,
+    "N": 9,
+    "q": 9,
+    "k": 4,
+    "cuts": 126
+  },
+  "parent_10_9": {
+    "PASS": true,
+    "N": 10,
+    "q": 9,
+    "k": 5,
+    "cuts": 252
+  },
+  "parent_12_9": {
+    "PASS": true,
+    "N": 12,
+    "q": 9,
+    "k": 6,
+    "cuts": 924
+  },
+  "parent_16_9": {
+    "PASS": true,
+    "N": 16,
+    "q": 9,
+    "k": 8,
+    "cuts": 12870
+  },
+  "ame_9_18": {
+    "PASS": true,
+    "N": 9,
+    "K": 4,
+    "low_binary_words": 27,
+    "parent_cuts": 252
+  },
+  "ame_11_18": {
+    "PASS": true,
+    "N": 11,
+    "K": 2,
+    "low_binary_words": 66,
+    "parent_cuts": 924
+  },
+  "ame_15_18": {
+    "PASS": true,
+    "N": 15,
+    "K": 8,
+    "low_binary_words": 513,
+    "parent_cuts": 12870
+  },
+  "negative_controls": "duplicate binary/field labels per cell and zero graphs rejected"
+}

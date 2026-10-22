@@ -50,3 +50,9 @@ citing [Grassl–Rötteler, Quantum MDS Codes over Small Fields](https://arxiv.o
 The explicit bordered-circulant matrix in `parent11_certificate.json` was found by our
 deterministic local search and is reconstructed and checked by `parent11.py`;
 its inclusion does not assert new existence of the prime parent.
+
+
+Kitamura AME(9,6): pinned source metadata in `data/kitamura96-source.json`;
+no external matrices or Lean files redistributed because licence permission
+was not established offline. See `docs/R10-prime-powers.md` for user retrieval
+and the hash-checked structured verifier. No Lean build.

@@ -1,0 +1,2309 @@
+{
+  "PASS": true,
+  "range": [
+    3,
+    200
+  ],
+  "cases": [
+    {
+      "d": 3,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 4,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        }
+      ]
+    },
+    {
+      "d": 5,
+      "factors": [
+        {
+          "d": 5,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 6,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        }
+      ]
+    },
+    {
+      "d": 7,
+      "factors": [
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 8,
+      "factors": [
+        {
+          "d": 8,
+          "method": "explicit graph q4 or q8"
+        }
+      ]
+    },
+    {
+      "d": 9,
+      "factors": [
+        {
+          "d": 9,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 10,
+      "factors": [
+        {
+          "d": 10,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 11,
+      "factors": [
+        {
+          "d": 11,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 12,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 3,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 13,
+      "factors": [
+        {
+          "d": 13,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 14,
+      "factors": [
+        {
+          "d": 14,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 15,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 16,
+      "factors": [
+        {
+          "d": 16,
+          "method": "RS length9"
+        }
+      ]
+    },
+    {
+      "d": 17,
+      "factors": [
+        {
+          "d": 17,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 18,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        },
+        {
+          "d": 3,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 19,
+      "factors": [
+        {
+          "d": 19,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 20,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 21,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 22,
+      "factors": [
+        {
+          "d": 22,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 23,
+      "factors": [
+        {
+          "d": 23,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 24,
+      "factors": [
+        {
+          "d": 8,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 3,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 25,
+      "factors": [
+        {
+          "d": 25,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 26,
+      "factors": [
+        {
+          "d": 26,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 27,
+      "factors": [
+        {
+          "d": 27,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 28,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 29,
+      "factors": [
+        {
+          "d": 29,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 30,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 31,
+      "factors": [
+        {
+          "d": 31,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 32,
+      "factors": [
+        {
+          "d": 32,
+          "method": "RS length9"
+        }
+      ]
+    },
+    {
+      "d": 33,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 11,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 34,
+      "factors": [
+        {
+          "d": 34,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 35,
+      "factors": [
+        {
+          "d": 5,
+          "method": "explicit graph"
+        },
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 36,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 9,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 37,
+      "factors": [
+        {
+          "d": 37,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 38,
+      "factors": [
+        {
+          "d": 38,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 39,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 13,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 40,
+      "factors": [
+        {
+          "d": 8,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 41,
+      "factors": [
+        {
+          "d": 41,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 42,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        },
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 43,
+      "factors": [
+        {
+          "d": 43,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 44,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 11,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 45,
+      "factors": [
+        {
+          "d": 9,
+          "method": "explicit graph"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 46,
+      "factors": [
+        {
+          "d": 46,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 47,
+      "factors": [
+        {
+          "d": 47,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 48,
+      "factors": [
+        {
+          "d": 16,
+          "method": "RS length9"
+        },
+        {
+          "d": 3,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 49,
+      "factors": [
+        {
+          "d": 49,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 50,
+      "factors": [
+        {
+          "d": 10,
+          "method": "N01 all-cut prime family p>=5"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 51,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 17,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 52,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 13,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 53,
+      "factors": [
+        {
+          "d": 53,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 54,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        },
+        {
+          "d": 9,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 55,
+      "factors": [
+        {
+          "d": 5,
+          "method": "explicit graph"
+        },
+        {
+          "d": 11,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 56,
+      "factors": [
+        {
+          "d": 8,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 57,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 19,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 58,
+      "factors": [
+        {
+          "d": 58,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 59,
+      "factors": [
+        {
+          "d": 59,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 60,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 61,
+      "factors": [
+        {
+          "d": 61,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 62,
+      "factors": [
+        {
+          "d": 62,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 63,
+      "factors": [
+        {
+          "d": 9,
+          "method": "explicit graph"
+        },
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 64,
+      "factors": [
+        {
+          "d": 64,
+          "method": "RS length9"
+        }
+      ]
+    },
+    {
+      "d": 65,
+      "factors": [
+        {
+          "d": 5,
+          "method": "explicit graph"
+        },
+        {
+          "d": 13,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 66,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        },
+        {
+          "d": 11,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 67,
+      "factors": [
+        {
+          "d": 67,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 68,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 17,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 69,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 23,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 70,
+      "factors": [
+        {
+          "d": 10,
+          "method": "N01 all-cut prime family p>=5"
+        },
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 71,
+      "factors": [
+        {
+          "d": 71,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 72,
+      "factors": [
+        {
+          "d": 8,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 9,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 73,
+      "factors": [
+        {
+          "d": 73,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 74,
+      "factors": [
+        {
+          "d": 74,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 75,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 25,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 76,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 19,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 77,
+      "factors": [
+        {
+          "d": 7,
+          "method": "explicit graph"
+        },
+        {
+          "d": 11,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 78,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        },
+        {
+          "d": 13,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 79,
+      "factors": [
+        {
+          "d": 79,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 80,
+      "factors": [
+        {
+          "d": 16,
+          "method": "RS length9"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 81,
+      "factors": [
+        {
+          "d": 81,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 82,
+      "factors": [
+        {
+          "d": 82,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 83,
+      "factors": [
+        {
+          "d": 83,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 84,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 85,
+      "factors": [
+        {
+          "d": 5,
+          "method": "explicit graph"
+        },
+        {
+          "d": 17,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 86,
+      "factors": [
+        {
+          "d": 86,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 87,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 29,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 88,
+      "factors": [
+        {
+          "d": 8,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 11,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 89,
+      "factors": [
+        {
+          "d": 89,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 90,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        },
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 91,
+      "factors": [
+        {
+          "d": 7,
+          "method": "explicit graph"
+        },
+        {
+          "d": 13,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 92,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 23,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 93,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 31,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 94,
+      "factors": [
+        {
+          "d": 94,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 95,
+      "factors": [
+        {
+          "d": 5,
+          "method": "explicit graph"
+        },
+        {
+          "d": 19,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 96,
+      "factors": [
+        {
+          "d": 32,
+          "method": "RS length9"
+        },
+        {
+          "d": 3,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 97,
+      "factors": [
+        {
+          "d": 97,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 98,
+      "factors": [
+        {
+          "d": 14,
+          "method": "N01 all-cut prime family p>=5"
+        },
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 99,
+      "factors": [
+        {
+          "d": 9,
+          "method": "explicit graph"
+        },
+        {
+          "d": 11,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 100,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 25,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 101,
+      "factors": [
+        {
+          "d": 101,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 102,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        },
+        {
+          "d": 17,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 103,
+      "factors": [
+        {
+          "d": 103,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 104,
+      "factors": [
+        {
+          "d": 8,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 13,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 105,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        },
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 106,
+      "factors": [
+        {
+          "d": 106,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 107,
+      "factors": [
+        {
+          "d": 107,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 108,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 27,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 109,
+      "factors": [
+        {
+          "d": 109,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 110,
+      "factors": [
+        {
+          "d": 10,
+          "method": "N01 all-cut prime family p>=5"
+        },
+        {
+          "d": 11,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 111,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 37,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 112,
+      "factors": [
+        {
+          "d": 16,
+          "method": "RS length9"
+        },
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 113,
+      "factors": [
+        {
+          "d": 113,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 114,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        },
+        {
+          "d": 19,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 115,
+      "factors": [
+        {
+          "d": 5,
+          "method": "explicit graph"
+        },
+        {
+          "d": 23,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 116,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 29,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 117,
+      "factors": [
+        {
+          "d": 9,
+          "method": "explicit graph"
+        },
+        {
+          "d": 13,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 118,
+      "factors": [
+        {
+          "d": 118,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 119,
+      "factors": [
+        {
+          "d": 7,
+          "method": "explicit graph"
+        },
+        {
+          "d": 17,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 120,
+      "factors": [
+        {
+          "d": 8,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 121,
+      "factors": [
+        {
+          "d": 121,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 122,
+      "factors": [
+        {
+          "d": 122,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 123,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 41,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 124,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 31,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 125,
+      "factors": [
+        {
+          "d": 125,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 126,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        },
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 127,
+      "factors": [
+        {
+          "d": 127,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 128,
+      "factors": [
+        {
+          "d": 128,
+          "method": "RS length9"
+        }
+      ]
+    },
+    {
+      "d": 129,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 43,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 130,
+      "factors": [
+        {
+          "d": 10,
+          "method": "N01 all-cut prime family p>=5"
+        },
+        {
+          "d": 13,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 131,
+      "factors": [
+        {
+          "d": 131,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 132,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 11,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 133,
+      "factors": [
+        {
+          "d": 7,
+          "method": "explicit graph"
+        },
+        {
+          "d": 19,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 134,
+      "factors": [
+        {
+          "d": 134,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 135,
+      "factors": [
+        {
+          "d": 27,
+          "method": "RS length9, q>=8"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 136,
+      "factors": [
+        {
+          "d": 8,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 17,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 137,
+      "factors": [
+        {
+          "d": 137,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 138,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        },
+        {
+          "d": 23,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 139,
+      "factors": [
+        {
+          "d": 139,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 140,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        },
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 141,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 47,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 142,
+      "factors": [
+        {
+          "d": 142,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 143,
+      "factors": [
+        {
+          "d": 11,
+          "method": "RS length9, q>=8"
+        },
+        {
+          "d": 13,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 144,
+      "factors": [
+        {
+          "d": 16,
+          "method": "RS length9"
+        },
+        {
+          "d": 9,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 145,
+      "factors": [
+        {
+          "d": 5,
+          "method": "explicit graph"
+        },
+        {
+          "d": 29,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 146,
+      "factors": [
+        {
+          "d": 146,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 147,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 49,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 148,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 37,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 149,
+      "factors": [
+        {
+          "d": 149,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 150,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        },
+        {
+          "d": 25,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 151,
+      "factors": [
+        {
+          "d": 151,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 152,
+      "factors": [
+        {
+          "d": 8,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 19,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 153,
+      "factors": [
+        {
+          "d": 9,
+          "method": "explicit graph"
+        },
+        {
+          "d": 17,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 154,
+      "factors": [
+        {
+          "d": 14,
+          "method": "N01 all-cut prime family p>=5"
+        },
+        {
+          "d": 11,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 155,
+      "factors": [
+        {
+          "d": 5,
+          "method": "explicit graph"
+        },
+        {
+          "d": 31,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 156,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 13,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 157,
+      "factors": [
+        {
+          "d": 157,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 158,
+      "factors": [
+        {
+          "d": 158,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 159,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 53,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 160,
+      "factors": [
+        {
+          "d": 32,
+          "method": "RS length9"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 161,
+      "factors": [
+        {
+          "d": 7,
+          "method": "explicit graph"
+        },
+        {
+          "d": 23,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 162,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        },
+        {
+          "d": 27,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 163,
+      "factors": [
+        {
+          "d": 163,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 164,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 41,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 165,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        },
+        {
+          "d": 11,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 166,
+      "factors": [
+        {
+          "d": 166,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 167,
+      "factors": [
+        {
+          "d": 167,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 168,
+      "factors": [
+        {
+          "d": 8,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 169,
+      "factors": [
+        {
+          "d": 169,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 170,
+      "factors": [
+        {
+          "d": 10,
+          "method": "N01 all-cut prime family p>=5"
+        },
+        {
+          "d": 17,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 171,
+      "factors": [
+        {
+          "d": 9,
+          "method": "explicit graph"
+        },
+        {
+          "d": 19,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 172,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 43,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 173,
+      "factors": [
+        {
+          "d": 173,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 174,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        },
+        {
+          "d": 29,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 175,
+      "factors": [
+        {
+          "d": 25,
+          "method": "RS length9, q>=8"
+        },
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 176,
+      "factors": [
+        {
+          "d": 16,
+          "method": "RS length9"
+        },
+        {
+          "d": 11,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 177,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 59,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 178,
+      "factors": [
+        {
+          "d": 178,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 179,
+      "factors": [
+        {
+          "d": 179,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 180,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 9,
+          "method": "explicit graph"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 181,
+      "factors": [
+        {
+          "d": 181,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 182,
+      "factors": [
+        {
+          "d": 14,
+          "method": "N01 all-cut prime family p>=5"
+        },
+        {
+          "d": 13,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 183,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 61,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 184,
+      "factors": [
+        {
+          "d": 8,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 23,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 185,
+      "factors": [
+        {
+          "d": 5,
+          "method": "explicit graph"
+        },
+        {
+          "d": 37,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 186,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        },
+        {
+          "d": 31,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 187,
+      "factors": [
+        {
+          "d": 11,
+          "method": "RS length9, q>=8"
+        },
+        {
+          "d": 17,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 188,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 47,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 189,
+      "factors": [
+        {
+          "d": 27,
+          "method": "RS length9, q>=8"
+        },
+        {
+          "d": 7,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 190,
+      "factors": [
+        {
+          "d": 10,
+          "method": "N01 all-cut prime family p>=5"
+        },
+        {
+          "d": 19,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 191,
+      "factors": [
+        {
+          "d": 191,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 192,
+      "factors": [
+        {
+          "d": 64,
+          "method": "RS length9"
+        },
+        {
+          "d": 3,
+          "method": "explicit graph"
+        }
+      ]
+    },
+    {
+      "d": 193,
+      "factors": [
+        {
+          "d": 193,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 194,
+      "factors": [
+        {
+          "d": 194,
+          "method": "N01 all-cut prime family p>=5"
+        }
+      ]
+    },
+    {
+      "d": 195,
+      "factors": [
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 5,
+          "method": "explicit graph"
+        },
+        {
+          "d": 13,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 196,
+      "factors": [
+        {
+          "d": 4,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 49,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 197,
+      "factors": [
+        {
+          "d": 197,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 198,
+      "factors": [
+        {
+          "d": 6,
+          "method": "Kitamura exact mixed-phase certificate"
+        },
+        {
+          "d": 3,
+          "method": "explicit graph"
+        },
+        {
+          "d": 11,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 199,
+      "factors": [
+        {
+          "d": 199,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    },
+    {
+      "d": 200,
+      "factors": [
+        {
+          "d": 8,
+          "method": "explicit graph q4 or q8"
+        },
+        {
+          "d": 25,
+          "method": "RS length9, q>=8"
+        }
+      ]
+    }
+  ],
+  "dimension_one": "Empty product is a trivial tensor factor; never require an AME input at d1",
+  "d2": "excluded by exact shadow below"
+}

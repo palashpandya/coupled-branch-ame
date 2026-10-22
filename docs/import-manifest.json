@@ -258,6 +258,139 @@
       "source_sha256": "17321d1cdcdae00e2d70a11fb7c09f7fe2ed420a862df89332de0739f91cc294",
       "packaged_sha256": "17321d1cdcdae00e2d70a11fb7c09f7fe2ed420a862df89332de0739f91cc294",
       "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_results/graph_9_3.json",
+      "destination": "data/prime_powers/graph_9_3.json",
+      "source_sha256": "e54eb1ba54e7527416586cd28608b099f07b2f427df3002bcfe92ae7e661aa93",
+      "packaged_sha256": "e54eb1ba54e7527416586cd28608b099f07b2f427df3002bcfe92ae7e661aa93",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_results/graph_9_4.json",
+      "destination": "data/prime_powers/graph_9_4.json",
+      "source_sha256": "abb230b9c202ec760d8b1adfadb90b6bc8c9e9a0feb9c7cdfb0125eb03f91889",
+      "packaged_sha256": "abb230b9c202ec760d8b1adfadb90b6bc8c9e9a0feb9c7cdfb0125eb03f91889",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_results/graph_9_5.json",
+      "destination": "data/prime_powers/graph_9_5.json",
+      "source_sha256": "6f9c134e06ac075bc65c7ba60a994951797af3062e5b472992dede5599795d19",
+      "packaged_sha256": "6f9c134e06ac075bc65c7ba60a994951797af3062e5b472992dede5599795d19",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_results/graph_9_7.json",
+      "destination": "data/prime_powers/graph_9_7.json",
+      "source_sha256": "75103ff12f4d87c3b41613fa9fa15af2bddd1d0173d410150310f9d7e7f71119",
+      "packaged_sha256": "75103ff12f4d87c3b41613fa9fa15af2bddd1d0173d410150310f9d7e7f71119",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_results/graph_9_8.json",
+      "destination": "data/prime_powers/graph_9_8.json",
+      "source_sha256": "cbe0b697440bdf99a036c7dcfa8c1db59066e853198488a026587387bdb6e6c2",
+      "packaged_sha256": "cbe0b697440bdf99a036c7dcfa8c1db59066e853198488a026587387bdb6e6c2",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_results/graph_9_9.json",
+      "destination": "data/prime_powers/graph_9_9.json",
+      "source_sha256": "67d8b320ed90c3dfc6a7e2869dce07b6ea3f6ddae6ea57106424939b29af4584",
+      "packaged_sha256": "67d8b320ed90c3dfc6a7e2869dce07b6ea3f6ddae6ea57106424939b29af4584",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_results/parent_10_9.json",
+      "destination": "data/prime_powers/parent_10_9.json",
+      "source_sha256": "3167c52cf8395c336e82bd7e0761e180cab18faed6edc3db3b7a0949e267214f",
+      "packaged_sha256": "3167c52cf8395c336e82bd7e0761e180cab18faed6edc3db3b7a0949e267214f",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_results/parent_12_9.json",
+      "destination": "data/prime_powers/parent_12_9.json",
+      "source_sha256": "ebed6fe0790daea99bcd94954c1b00eb58490f4fc1e5b38ea99227c351365a9c",
+      "packaged_sha256": "ebed6fe0790daea99bcd94954c1b00eb58490f4fc1e5b38ea99227c351365a9c",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_results/parent_16_9.json",
+      "destination": "data/prime_powers/parent_16_9.json",
+      "source_sha256": "59f65a2ac0e7ea02636037078ffa3f09ff081d146aa1b8f199f73b28d2a21352",
+      "packaged_sha256": "59f65a2ac0e7ea02636037078ffa3f09ff081d146aa1b8f199f73b28d2a21352",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_results/ame_9_18.json",
+      "destination": "data/prime_powers/ame_9_18.json",
+      "source_sha256": "5d54de2fdd905034911c963f7489e09fb14a0860a9344ea2607054ded8e43873",
+      "packaged_sha256": "5d54de2fdd905034911c963f7489e09fb14a0860a9344ea2607054ded8e43873",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_results/ame_11_18.json",
+      "destination": "data/prime_powers/ame_11_18.json",
+      "source_sha256": "cf0e4f1c145b40d6c7d7838b05fc256a2ed628c66003b8aaa0daef25309d147e",
+      "packaged_sha256": "cf0e4f1c145b40d6c7d7838b05fc256a2ed628c66003b8aaa0daef25309d147e",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_results/ame_15_18.json",
+      "destination": "data/prime_powers/ame_15_18.json",
+      "source_sha256": "7abf1a825dea420353064571c540fa062d4b005ffb10e46e7eb9e8748df27379",
+      "packaged_sha256": "7abf1a825dea420353064571c540fa062d4b005ffb10e46e7eb9e8748df27379",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_results/parent_16_9_source.json",
+      "destination": "data/prime_powers/parent_16_9_source.json",
+      "source_sha256": "0313c1a6a67ee9e550e7f400d986e32613ec97c1eb13cf4f1a77fa18e8304799",
+      "packaged_sha256": "0313c1a6a67ee9e550e7f400d986e32613ec97c1eb13cf4f1a77fa18e8304799",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_results/binary15.json",
+      "destination": "data/prime_powers/binary15.json",
+      "source_sha256": "9549514b4ca0df0de860e8bbaf3b729b4db6d9f54468027f2e488b2c0cc61f91",
+      "packaged_sha256": "9549514b4ca0df0de860e8bbaf3b729b4db6d9f54468027f2e488b2c0cc61f91",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_results/product_coverage.json",
+      "destination": "data/prime_powers/product_coverage.json",
+      "source_sha256": "fe75c1ae4a1ac5b7a3832874641d08bfd1581725ffa36a516ca1217f0e9fa572",
+      "packaged_sha256": "fe75c1ae4a1ac5b7a3832874641d08bfd1581725ffa36a516ca1217f0e9fa572",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_field.py",
+      "destination": "coupled_ame/finite_field.py",
+      "source_sha256": "e78984ea638614c148c92ef782e8cd2ddb760e8181a92488cbd7e3fb5918d3ea",
+      "packaged_sha256": "e78984ea638614c148c92ef782e8cd2ddb760e8181a92488cbd7e3fb5918d3ea",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_parents.py",
+      "destination": "coupled_ame/field_parents.py",
+      "source_sha256": "02c7c16789639c37680dd33bff2197350ddb10daa7716117477b937f389e072f",
+      "packaged_sha256": "a5f7d3118d07f3334c7a1bf09881b85b3f2d14946ee2647d1e5fe1a8b9d09040",
+      "adapted": true
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n04_verify_cells.py",
+      "destination": "coupled_ame/field_cells.py",
+      "source_sha256": "1b4213e0880e8c1f15881711d8eb4c5ec0e1d2160fc49bad7d8f7f4e27621160",
+      "packaged_sha256": "dfccbcbc7a83a355912a08387a7b727fd9a8e3006c72bcb27f5e348390a50c6c",
+      "adapted": true
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/claude/check_n04.py",
+      "destination": "coupled_ame/prime_powers_independent.py",
+      "source_sha256": "c1a52e11e11148d5af5419cc130a082309e715bf58d3195f541c023fd97b9ae6",
+      "packaged_sha256": "9c3431a84d3a854bf4a53d461515aa7a9980bd946d00e31da14cec02a14258c1",
+      "adapted": true
     }
   ],
   "adaptations": [
