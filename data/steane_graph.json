@@ -1,0 +1,81 @@
+{
+  "graph": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "labels": [
+    0,
+    7
+  ],
+  "Fourier_mask": 15,
+  "original_generators": [
+    85,
+    102,
+    120,
+    10880,
+    13056,
+    15360
+  ],
+  "phase_convention": "graph generators +1 define chosen sector; local Pauli phase correction may be needed to match canonical Steane signs"
+}

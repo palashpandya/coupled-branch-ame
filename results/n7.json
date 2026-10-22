@@ -1,0 +1,440 @@
+{
+  "status": "PASS",
+  "steane": {
+    "PASS": true,
+    "N": 7,
+    "rank": 6,
+    "minimum_weight": 4,
+    "weight_enumerator": {
+      "0": 1,
+      "4": 21,
+      "6": 42
+    },
+    "K": 2,
+    "signed_generators": "independent Hermitian i^popcount(x&z) X^x Z^z, each +1"
+  },
+  "parent": {
+    "PASS": true,
+    "p": 5,
+    "nu": 2,
+    "B": [
+      [
+        4,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        16,
+        13,
+        2
+      ],
+      [
+        1,
+        2,
+        16,
+        13
+      ],
+      [
+        1,
+        13,
+        2,
+        16
+      ]
+    ],
+    "graph": [
+      [
+        0,
+        0,
+        0,
+        0,
+        4,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        3,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1,
+        3,
+        4,
+        0,
+        4
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        3,
+        2,
+        3,
+        3
+      ],
+      [
+        4,
+        3,
+        3,
+        3,
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        1,
+        1,
+        4,
+        2,
+        1,
+        0,
+        1,
+        4
+      ],
+      [
+        1,
+        1,
+        0,
+        3,
+        3,
+        1,
+        0,
+        3
+      ],
+      [
+        1,
+        1,
+        4,
+        3,
+        2,
+        4,
+        3,
+        0
+      ]
+    ],
+    "minor_counts": {
+      "1": 16,
+      "2": 36,
+      "3": 16,
+      "4": 1
+    },
+    "cut_count": 70,
+    "Fourier_mask": 3,
+    "removed_diagonal": [
+      0,
+      0,
+      2,
+      2,
+      1,
+      1,
+      4,
+      0
+    ]
+  },
+  "constructions": {
+    "7_10": {
+      "PASS": true,
+      "N": 7,
+      "p": 5,
+      "K": 2,
+      "binary_low_words_checked": 7,
+      "parent_cuts": 70,
+      "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+      "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y",
+      "independent_35_cut_determinants": [
+        1,
+        4,
+        1,
+        1,
+        3,
+        1,
+        1,
+        3,
+        4,
+        3,
+        2,
+        2,
+        4,
+        2,
+        1,
+        4,
+        3,
+        4,
+        4,
+        3,
+        3,
+        2,
+        2,
+        1,
+        1,
+        3,
+        3,
+        3,
+        1,
+        1,
+        3,
+        4,
+        1,
+        4,
+        1
+      ]
+    },
+    "7_14": {
+      "PASS": true,
+      "N": 7,
+      "p": 7,
+      "K": 2,
+      "binary_low_words_checked": 7,
+      "parent_cuts": 70,
+      "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+      "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y",
+      "independent_35_cut_determinants": [
+        2,
+        3,
+        4,
+        5,
+        2,
+        2,
+        5,
+        4,
+        3,
+        2,
+        3,
+        2,
+        2,
+        3,
+        2,
+        3,
+        2,
+        5,
+        4,
+        5,
+        2,
+        5,
+        3,
+        2,
+        3,
+        4,
+        5,
+        2,
+        4,
+        5,
+        2,
+        5,
+        4,
+        3,
+        2
+      ]
+    },
+    "7_22": {
+      "PASS": true,
+      "N": 7,
+      "p": 11,
+      "K": 2,
+      "binary_low_words_checked": 7,
+      "parent_cuts": 70,
+      "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+      "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y",
+      "independent_35_cut_determinants": [
+        6,
+        8,
+        8,
+        7,
+        1,
+        8,
+        2,
+        2,
+        3,
+        2,
+        6,
+        4,
+        8,
+        5,
+        3,
+        7,
+        2,
+        10,
+        9,
+        6,
+        2,
+        3,
+        2,
+        9,
+        5,
+        8,
+        2,
+        4,
+        6,
+        3,
+        4,
+        2,
+        9,
+        3,
+        1
+      ]
+    }
+  },
+  "oriented_cuts": 210,
+  "shadow_rows": [
+    {
+      "p": 3,
+      "K": 1,
+      "all_party_row": "0",
+      "feasible": true
+    },
+    {
+      "p": 3,
+      "K": 2,
+      "all_party_row": "-8/27",
+      "feasible": false
+    },
+    {
+      "p": 5,
+      "K": 2,
+      "all_party_row": "4/25",
+      "feasible": true
+    },
+    {
+      "p": 7,
+      "K": 2,
+      "all_party_row": "16/49",
+      "feasible": true
+    },
+    {
+      "p": 11,
+      "K": 2,
+      "all_party_row": "680/1331",
+      "feasible": true
+    }
+  ],
+  "sign_table": {
+    "7": {
+      "excluded_primes": [
+        2,
+        3
+      ],
+      "S2": "-13/8",
+      "S3": "-8/27",
+      "shifted_coefficients": [
+        20,
+        26,
+        8,
+        1
+      ]
+    },
+    "9": {
+      "excluded_primes": [],
+      "S2": "23/8",
+      "S3": "4/9",
+      "shifted_coefficients": [
+        106,
+        101,
+        51,
+        11,
+        1
+      ]
+    },
+    "11": {
+      "excluded_primes": [
+        2,
+        3
+      ],
+      "S2": "-83/16",
+      "S3": "-40/81",
+      "shifted_coefficients": [
+        188,
+        430,
+        260,
+        85,
+        14,
+        1
+      ]
+    },
+    "13": {
+      "excluded_primes": [],
+      "S2": "305/32",
+      "S3": "152/243",
+      "shifted_coefficients": [
+        1156,
+        1538,
+        1250,
+        524,
+        128,
+        17,
+        1
+      ]
+    },
+    "15": {
+      "excluded_primes": [
+        2,
+        3
+      ],
+      "S2": "-2269/128",
+      "S3": "-560/729",
+      "shifted_coefficients": [
+        1640,
+        6100,
+        5472,
+        2890,
+        920,
+        180,
+        20,
+        1
+      ]
+    },
+    "17": {
+      "excluded_primes": [],
+      "S2": "4259/128",
+      "S3": "6340/6561",
+      "shifted_coefficients": [
+        12970,
+        20837,
+        23431,
+        14537,
+        5755,
+        1475,
+        241,
+        23,
+        1
+      ]
+    },
+    "19": {
+      "excluded_primes": [
+        2,
+        3
+      ],
+      "S2": "-16103/256",
+      "S3": "-23960/19683",
+      "shifted_coefficients": [
+        12332,
+        80102,
+        94892,
+        69197,
+        32522,
+        10331,
+        2216,
+        311,
+        26,
+        1
+      ]
+    }
+  },
+  "counterexample_to_all_N_extrapolation": {
+    "N": 27,
+    "p": 5,
+    "S": "-3656/9765625"
+  }
+}

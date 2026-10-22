@@ -1,8 +1,14 @@
 {
   "schema_version": 2,
   "status": "exact_certificates_packaged",
-  "article_draft": "R07, 2026-10-22",
+  "article_draft": "R08, 2026-10-22",
   "infinite_families": [
+    {
+      "N": 7,
+      "prime_threshold": 5,
+      "K": 2,
+      "scope": "Known existence covered by Shi et al.; all-cut reconstruction, not LU-equivalence. F25 p5, extended Cauchy p7, Cauchy p>=11."
+    },
     {
       "N": 9,
       "prime_threshold": 5,
@@ -35,6 +41,30 @@
     }
   ],
   "finite_examples": [
+    {
+      "key": "7_10",
+      "N": 7,
+      "d": 10,
+      "p": 5,
+      "K": 2,
+      "verifier": "coupled_ame/n7.py"
+    },
+    {
+      "key": "7_14",
+      "N": 7,
+      "d": 14,
+      "p": 7,
+      "K": 2,
+      "verifier": "coupled_ame/n7.py"
+    },
+    {
+      "key": "7_22",
+      "N": 7,
+      "d": 22,
+      "p": 11,
+      "K": 2,
+      "verifier": "coupled_ame/n7.py"
+    },
     {
       "key": "9_10",
       "N": 9,

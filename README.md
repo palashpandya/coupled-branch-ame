@@ -46,7 +46,7 @@ a written argument or external source: `inventory.py` only checks its catalogue/
 
 | # | Statement | Paper | Script | Status |
 |---|---|---|---|---|
-| 1 | Seventeen cells are AME; 127,970 oriented parent cuts | Thm. I.1; Table II | `o3_verify.py`, `independent.py`, `reconstruct.py`, `small_families.py` | exact |
+| 1 | Twenty cells are AME; 128,180 oriented parent cuts | Thm. I.1; Table II | `o3_verify.py`, `independent.py`, `reconstruct.py`, `small_families.py`, `n7.py` | exact |
 | 2 | Every prime p≥5,5,17,11,67 for N9,11,13,15,17; three parent constructions at N15 | Thm. I.1; Lem. IV.1 (`lem:cauchy`) | `reconstruct.py`, `inventory.py` | exact finite inputs; cited analytic Cauchy proof |
 | 3 | Weighted coupling, conditioned-parent identity and stabilizer-projector criterion | Prop. II.1, Lem. II.2, Prop. III.1 | `o3_verify.py`, `inventory.py` | exact finite inputs; cited partial-trace/Pauli arguments |
 | 4 | Binary ranks16,8,64 and minimum stabilizer weights7,8,9; full enumerators and seeds | Prop. III.2; Eqs.(10)–(12),(A1)–(A3) | `o3_verify.py`, `reconstruct.py` | exact |
@@ -199,8 +199,30 @@ next ranks are checked too; they are not quantum states. No scipy or solver is n
 At N15 this makes p≥11 complete within the all-cut route. At N17 primes≤19 are excluded and
 primes23..61 remain unresolved here. These are not unrestricted AME nonexistence claims.
 
-The N7 discussion is analytic only: Steane K2 plus AME(8,p) works for primes≥5.
-The shadow exclusion of AME(8,3) does not decide whether a pure ((7,2,4))_3 code exists.
-No seven-site search is included. Literature-search scope and attribution are recorded in
+R08 resolves the N7 all-cut question: Steane K2 plus AME(8,p) works for primes≥5,
+and the exact all-party shadow row excludes every pure ((7,K,4))_3 code with K>1.
+K1 would require a nonexistent three-uniform seven-qubit state. No search is needed for replay. Literature-search scope and attribution are recorded in
 `docs/R07-literature.md`; no priority claim is made. Support exports still cover the nine N≥13
 states, and symmetry classification still covers the previous eight states only.
+
+## N7 reconstruction and shadow condition (R08)
+
+The known N7 existence cells (7,10), (7,14), (7,22) are certified by `n7.py`, using
+`data/n7_spec.json` and `data/n7_certificates.json`. The whole all-cut family p≥5 uses an explicit
+F25 Hermitian parent at p5, extended Cauchy at p7 and ordinary Cauchy at p≥11. These cells are
+already covered by Shi et al.; no equality or local-unitary equivalence to their states is asserted.
+The Steane enumerator is **1+21z^4+42z^6**, so the minimum weight is four.
+
+| Statement | Article anchor | Exact replay |
+|---|---|---|
+| Three N7 cells, 70 oriented parent cuts each | Table II; discussion | `n7.py`: Hermitian product, 69 nonempty minors, graph chart, binary Walsh average, independent 35-cut Leibniz determinants |
+| Any K>1 all-cut branches require S(N,p)=sum(s=0..k)(−1)^s binom(N,s)/p^s≥0 | `lem:branch-shadow` | Purity/complement derivation; `n7.py` replays all256 shadow rows at N7 |
+| S(7,3)=−8/27 excludes all pure ((7,K,4))_3, K>1 | Same lemma | E=−(16/27)(1−1/K); no additive, stabilizer or parent-extension assumption |
+| At N7,11,15,19 exactly primes2,3 are excluded by this row; N9,13,17 none | Following lemma | p2,p3 evaluated exactly; positive coefficients in p−5 certify every p≥5 |
+
+The general inequality is valid at every odd N. The finite sign table is not a universal
+classification for N≡3 (mod4): S(27,5)<0. For N≡1 (mod4), the even Taylor truncation of
+(1−x)^N at x=1/p is positive, so this row cannot exclude a prime. The shadow row gives a
+parent-independent floor p≥5 at N7,11,15; the N15 binary rank bound gives the stronger floor11.
+The no-go concerns the stated all-cut route. AME(7,6) exists by Shi's cut-dependent coupling;
+no unrestricted AME nonexistence or particular mandatory cancellation pattern is inferred.

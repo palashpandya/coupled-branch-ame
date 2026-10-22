@@ -3,5 +3,5 @@ Platform Linux x86_64
 numpy 2.5.4
 sympy 1.14.0
 mpmath 1.3.0
-Numerical scope: three deterministic binary cuts per original N13/N15 cell; N9/N11 checks are exact only.
+Numerical scope: three deterministic binary cuts per original N13/N15 cell; N7/N9/N11 checks are exact only.
 All required cuts are checked exactly by two independent implementations.

@@ -1,0 +1,29 @@
+{
+  "inputs": [
+    {
+      "source": "workspace:research/lambda13_20261021/n03_results/ame_7_10.json",
+      "sha256": "1d616f2a6369dd613f02d61b4d001ac52cbe316346d3daf891e9c87c668ae717"
+    },
+    {
+      "source": "workspace:research/lambda13_20261021/n03_results/ame_7_10.verified.json",
+      "sha256": "33d59faea74f84df9460aac63e247bb28e464dd6e1b137615a6de4e56c105729"
+    },
+    {
+      "source": "workspace:research/lambda13_20261021/n03_results/ame_7_14.json",
+      "sha256": "dbe36f679ccbfe0a80c0733716a5347206d1441056259174d8e254116c48a3fa"
+    },
+    {
+      "source": "workspace:research/lambda13_20261021/n03_results/ame_7_14.verified.json",
+      "sha256": "545fc8824b0fd91593d14308384ececf59e3bad78d6f6fab7d40528e6fad73c2"
+    },
+    {
+      "source": "workspace:research/lambda13_20261021/n03_results/ame_7_22.json",
+      "sha256": "7dced998d7a5a7a7ac46b76567a304b98d0eb40aad773872eff6daaa6d9f6087"
+    },
+    {
+      "source": "workspace:research/lambda13_20261021/n03_results/ame_7_22.verified.json",
+      "sha256": "a8a3ad773eb11eda650e24ce432d2d3eebe3a904c386c7df898252d3f67c0c4d"
+    }
+  ],
+  "scope": "Merged N03 specs and certificates without value changes; no search replay. All source identifiers are workspace relative."
+}

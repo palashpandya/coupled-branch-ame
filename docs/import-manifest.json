@@ -230,6 +230,34 @@
       "source_sha256": "e65650c5ea37777847c6fdfb73beba8cbff2d8c08d08ebc166044d0efcc40d6e",
       "packaged_sha256": "e65650c5ea37777847c6fdfb73beba8cbff2d8c08d08ebc166044d0efcc40d6e",
       "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n03_results/parent_8_5.json",
+      "destination": "data/parent8_5.json",
+      "source_sha256": "4cfec14f9e1d26e559f1e7217824582e908ff4bb011e4c53522eb4eef1633bfb",
+      "packaged_sha256": "4cfec14f9e1d26e559f1e7217824582e908ff4bb011e4c53522eb4eef1633bfb",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n03_results/parent_8_5.verified.json",
+      "destination": "data/parent8_5_certificate.json",
+      "source_sha256": "92ed88a460a8e19b2528303bd44aa4e29c14c21f64b0ad963c1dd973f9ed31d8",
+      "packaged_sha256": "92ed88a460a8e19b2528303bd44aa4e29c14c21f64b0ad963c1dd973f9ed31d8",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n03_results/binary_graph.json",
+      "destination": "data/steane_graph.json",
+      "source_sha256": "7e318e72e0fa601635e0955e57845bbaf4faa62c01fbb0eba0bac56b4333ae39",
+      "packaged_sha256": "7e318e72e0fa601635e0955e57845bbaf4faa62c01fbb0eba0bac56b4333ae39",
+      "adapted": false
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/n03_results/shadow_lp.json",
+      "destination": "data/n7_shadow_certificate.json",
+      "source_sha256": "17321d1cdcdae00e2d70a11fb7c09f7fe2ed420a862df89332de0739f91cc294",
+      "packaged_sha256": "17321d1cdcdae00e2d70a11fb7c09f7fe2ed420a862df89332de0739f91cc294",
+      "adapted": false
     }
   ],
   "adaptations": [

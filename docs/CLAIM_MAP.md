@@ -1,6 +1,6 @@
 # Claim-to-evidence map
 
-Labels and printed numbers refer to the article of 22 October 2026 (updated R07), which is not
+Labels and printed numbers refer to the article of 22 October 2026 (updated R08), which is not
 included here. C01–C30 and P01–P09 are stable IDs from the original claim ledger.
 The README table is the entry point; this file maps the full computational scope.
 Paths below are clone-relative. Dataset basenames beginning O3/SYM1 identify the
@@ -10,7 +10,7 @@ research stage, not an external directory or dependency.
 
 | Article / ledger | Evidence and checker | Scope |
 |---|---|---|
-| Thm.I.1 `thm:main`, C02–C12 | `data/o3_external_spec.json`, `o3_binary_certificates.json`, `o3_construction_certificates.json`, `o3_circle13_certificate.json` (all under `data/`); `coupled_ame/o3_verify.py`, `independent.py`, `reconstruct.py` | Seventeen finite instances exact (including small_families_spec.json / small_families.py); all-primes conclusion uses the Cauchy proof and coupling identities. |
+| Thm.I.1 `thm:main`, C02–C12 | `data/o3_external_spec.json`, `o3_binary_certificates.json`, `o3_construction_certificates.json`, `o3_circle13_certificate.json` (all under `data/`); `coupled_ame/o3_verify.py`, `independent.py`, `reconstruct.py` | Twenty finite instances exact (including small_families_spec.json / small_families.py); all-primes conclusion uses the Cauchy proof and coupling identities. |
 | Prop.II.1 `prop:coupling`, C02; Lem.II.2 `lem:parent`, C03 | `docs/o4_algebraic_notes.md`, parent cuts in the preceding row | Written matrix-block/partial-trace argument; permits nonorthogonal binary states and nonnegative weights. |
 | Prop.III.1 `prop:weights`, C04 | `data/o3_binary_certificates.json`; `coupled_ame/o3_verify.py` | Pauli expansion of normalized projector, not a uniformity assertion about each supported vector. |
 | Prop.III.2 `prop:binary`, C05–C08 | Same binary certificates; `coupled_ame/codes.py`, `reconstruct.py` | Rebuild six polynomial shifts, length18 seed and restrictions; check full enumerators and subgroup ranks. |
@@ -38,6 +38,9 @@ claims are cited, not checked by building Lean in this repository.
 
 | Key | N,d | K | Parent | Oriented / unoriented cuts |
 |---|---|---|---|---|
+| 7_10 | 7,10 | 2 | F25 Hermitian | 70 / 35 |
+| 7_14 | 7,14 | 2 | extended Cauchy p7 | 70 / 35 |
+| 7_22 | 7,22 | 2 | Cauchy p11 | 70 / 35 |
 | 9_10 | 9,10 | 4 | Atlas p5 | 252 / 126 |
 | 9_14 | 9,14 | 4 | GF49 Hermitian p7 | 252 / 126 |
 | 9_22 | 9,22 | 4 | Cauchy p11 | 252 / 126 |
@@ -56,7 +59,7 @@ claims are cited, not checked by building Lean in this repository.
 | 15_46 | 15,46 | 8 | Cauchy p23 | 12870 / 6435 |
 | 17_134 | 17,134 | 64 | Cauchy p67 | 48620 / 24310 |
 
-The total is 127970 oriented cuts, or 63985 after identifying transpose cuts. The eight N9/N11 rows use data/small_families_spec.json and results/small_families.json.
+The total is 128180 oriented cuts, or 64090 after identifying transpose cuts. The three N7 rows use data/n7_spec.json and results/n7.json. The eight N9/N11 rows use data/small_families_spec.json and results/small_families.json.
 
 **Table III (notation), C01–C04,C08,C14,C15:** N=2k+1; p prime and d=2p;
 K is branch count (projector rank only in the orthonormal case); binary stabilizer
@@ -217,3 +220,21 @@ The support table (`tab:support`) remains nine N≥13 cells. The complete symmet
 remains the earlier eight cells; none of the N9/N11 states or15_22 is added to that claim.
 The earlier rank-grid caution is superseded by exact arbitrary-spectrum certificates, not by
 extrapolation from projector tests. Stable LaTeX labels identify the current tables.
+
+## R08: N7 and the general all-party shadow row
+
+All companion paths below are clone-relative; imported research sources are identified by workspace-relative provenance.
+
+| Article anchor | Evidence | Scope |
+|---|---|---|
+| Discussion; Table II N7 rows | data/n7_spec.json; data/n7_certificates.json; results/n7.json; coupled_ame/n7.py | (7,10),(7,14),(7,22); each70 oriented /35 unoriented cuts. Family primes≥5, known existence covered by Shi et al.; no LU comparison. |
+| Steane correction | data/steane_graph.json; n7.py | 1+21z^4+42z^6, rank6, K2, minimum weight4. Graph subgroup reconstructed under Fourier mask15; actual graph sector checked. |
+| F25 parent | data/parent8_5.json; parent8_5_certificate.json | theta²2; B Hermitian-unitary;69 nonempty square minors; graph chart and70 cuts. |
+| Lemma `lem:branch-shadow` | Text purity/complement/swap proof; data/n7_shadow_certificate.json; results/n7.json | E=2(1−1/K)S(N,p)≥0. For N7,p3: S=−8/27; every K>1 excluded. K1 separately excluded by binary AME7 nonexistence. |
+| Finite-N all-prime sign list | results/n7.json/sign_table | N7,11,15,19 exclude exactly2,3; N9,13,17 exclude none. Positive integer coefficients of p^k S in p−5 prove all p≥5. |
+| General-N qualification | Taylor-remainder proof in text; results/n7.json/counterexample_to_all_N_extrapolation | N≡1 mod4: S positive. Do not extrapolate the finite odd-k table: S(27,5)<0. |
+| Current totals | n7.json + small_families.json + reconstruction.json |20 cells;128180 oriented /64090 unoriented cuts. |
+
+The old R07 N7 “undecided” remark is superseded by the exact shadow proof. The main theorem
+retains its five N9..17 families; N7 is presented as a known-existence reconstruction in the
+discussion. Support and full-symmetry inventories retain their previous nine/eight-state scope.

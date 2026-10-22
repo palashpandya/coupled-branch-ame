@@ -1,5 +1,5 @@
 {
-  "catalogue.json": "c1c0fc42ae40e7a7d948fb2babb4ce465e35b50f291583e33b1ee76428271c71",
+  "catalogue.json": "fee36e4bd965ed29c2e9c519a82cfb5ccde36e8977923777dfb72304c8bf3b27",
   "o3_binary_certificates.json": "4c6637cde767b1fa4fff99d130372214c74bac1912ac44d625f21b496c1834d2",
   "o3_circle13_certificate.json": "7ceb5291ac12128f9bfa793173d9b1e93925329ff345bcefa9f81370efcc41ab",
   "o3_construction_certificates.json": "38ba1916547156dcc70c68f565f4ea715140f3efddb05f86c393cf935650cbfb",
@@ -23,5 +23,11 @@
   "small_families_spec.json": "a4e9f900a4d5ca4a91c84734290a4dd739d04fa74f17977ccf5ca648c7ce66ce",
   "small_families_certificates.json": "f952682737303f372b38aceb47d10c3c929f10d471f638dd77d5c77cd629b484",
   "parent12_7.json": "e65650c5ea37777847c6fdfb73beba8cbff2d8c08d08ebc166044d0efcc40d6e",
-  "general_rank_certificates.json": "3287b04985519ae831677022db51b052184a7c7c582390a25cc1c81df7d5dff9"
+  "general_rank_certificates.json": "3287b04985519ae831677022db51b052184a7c7c582390a25cc1c81df7d5dff9",
+  "n7_spec.json": "71eecfbf585e75a87417fbac284d4bcaa47d69c2d7844ee9c2b426e7927f49e4",
+  "parent8_5.json": "4cfec14f9e1d26e559f1e7217824582e908ff4bb011e4c53522eb4eef1633bfb",
+  "n7_shadow_certificate.json": "17321d1cdcdae00e2d70a11fb7c09f7fe2ed420a862df89332de0739f91cc294",
+  "parent8_5_certificate.json": "92ed88a460a8e19b2528303bd44aa4e29c14c21f64b0ad963c1dd973f9ed31d8",
+  "steane_graph.json": "7e318e72e0fa601635e0955e57845bbaf4faa62c01fbb0eba0bac56b4333ae39",
+  "n7_certificates.json": "d9f04cb4aa5f660e37b2058fb2aedf8cb91807e167141918a4690996f988f03c"
 }

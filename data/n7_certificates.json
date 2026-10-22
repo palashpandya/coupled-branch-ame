@@ -1,0 +1,32 @@
+{
+  "7_10": {
+    "PASS": true,
+    "N": 7,
+    "p": 5,
+    "K": 2,
+    "binary_low_words_checked": 7,
+    "parent_cuts": 70,
+    "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+    "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+  },
+  "7_14": {
+    "PASS": true,
+    "N": 7,
+    "p": 7,
+    "K": 2,
+    "binary_low_words_checked": 7,
+    "parent_cuts": 70,
+    "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+    "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+  },
+  "7_22": {
+    "PASS": true,
+    "N": 7,
+    "p": 11,
+    "K": 2,
+    "binary_low_words_checked": 7,
+    "parent_cuts": 70,
+    "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+    "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+  }
+}

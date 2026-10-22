@@ -13,10 +13,10 @@ import mpmath
 (RESULTS/'environment.txt').write_text(
     f'Python {platform.python_version()}\nPlatform {platform.system()} {platform.machine()}\n'
     f'numpy {numpy.__version__}\nsympy {sympy.__version__}\nmpmath {mpmath.__version__}\n'
-    'Numerical scope: three deterministic binary cuts per original N13/N15 cell; N9/N11 checks are exact only.\n'
+    'Numerical scope: three deterministic binary cuts per original N13/N15 cell; N7/N9/N11 checks are exact only.\n'
     'All required cuts are checked exactly by two independent implementations.\n')
 start=time.perf_counter(); records=[]
-for name in ['o3_verify','sym1_verify','independent','rank_and_c15','farkas_symbolic','permutation_cycles','parent13','reconstruct','support','small_families','general_rank','inventory']:
+for name in ['o3_verify','sym1_verify','independent','rank_and_c15','farkas_symbolic','permutation_cycles','parent13','reconstruct','support','small_families','general_rank','n7','inventory']:
     then=time.perf_counter()
     with (RESULTS/(name+'.log')).open('w') as out:
         result=subprocess.run([sys.executable,'-m','coupled_ame.'+name],cwd=ROOT,stdout=out,stderr=subprocess.STDOUT)
