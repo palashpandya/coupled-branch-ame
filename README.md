@@ -240,3 +240,14 @@ classification for N≡3 (mod4): S(27,5)<0. For N≡1 (mod4), the even Taylor tr
 parent-independent floor p≥5 at N7,11,15; the N15 binary rank bound gives the stronger floor11.
 The no-go concerns the stated all-cut route. AME(7,6) exists by Shi's cut-dependent coupling;
 no unrestricted AME nonexistence or particular mandatory cancellation pattern is inferred.
+
+
+## Optional independent Kitamura all-cut check (R11)
+
+`kitamura96_exact.py` checks every physical marginal using exact integer
+coefficients of sixth roots of unity, independently of the fast difference-type
+checker. It is intentionally outside the default runner. See
+[arithmetic guarantees and usage](docs/R11-audit.md). It uses the same pinned,
+caller-supplied external data and writes no dense tensor files. A low floating
+residual alone is not treated as proof. The classification's primary small-field
+inputs are the six explicitly certified graphs, with RS for all prime powers>=8.

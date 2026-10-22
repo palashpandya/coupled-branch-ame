@@ -1,7 +1,7 @@
 {
   "schema_version": 2,
   "status": "exact_certificates_packaged",
-  "article_draft": "R10, 2026-10-22",
+  "article_draft": "R11, 2026-10-22",
   "infinite_families": [
     {
       "N": 7,
@@ -294,7 +294,8 @@
       "d": 6,
       "source": "data/kitamura96-source.json",
       "verifier": "coupled_ame/kitamura96.py",
-      "requires_user_supplied_data": true
+      "requires_user_supplied_data": true,
+      "optional_dense_verifier": "coupled_ame/kitamura96_exact.py"
     }
   ],
   "classification": "For integers d>=2, AME(9,d) iff d>=3; analytic product proof with certified/cited inputs"

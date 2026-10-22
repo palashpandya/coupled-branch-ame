@@ -391,6 +391,14 @@
       "source_sha256": "c1a52e11e11148d5af5419cc130a082309e715bf58d3195f541c023fd97b9ae6",
       "packaged_sha256": "9c3431a84d3a854bf4a53d461515aa7a9980bd946d00e31da14cec02a14258c1",
       "adapted": true
+    },
+    {
+      "source_name": "workspace:research/lambda13_20261021/claude/check_kitamura96_exact.py",
+      "source_sha256": "78839b54e349e0ea96325c2bbb85d391a85aafb0a74852c6326ee1d459b42148",
+      "destination": "coupled_ame/kitamura96_exact.py",
+      "packaged_sha256": "fe0da85cd70845b085544955e6d8c624ef0d1c51a78248cfa943325723cd43c2",
+      "adapted": true,
+      "adaptation": "Retain independent matrix parser and tensor construction; replace rounded roots by exact integer root coefficients; pinned hash and optional caller-supplied input; no source redistribution"
     }
   ],
   "adaptations": [
