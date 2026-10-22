@@ -1,0 +1,522 @@
+{
+  "status": "PASS",
+  "constructions": {
+    "9_10": {
+      "PASS": true,
+      "N": 9,
+      "p": 5,
+      "K": 4,
+      "binary_low_words_checked": 27,
+      "parent_cuts": 252,
+      "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+      "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+    },
+    "9_14": {
+      "PASS": true,
+      "N": 9,
+      "p": 7,
+      "K": 4,
+      "binary_low_words_checked": 27,
+      "parent_cuts": 252,
+      "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+      "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+    },
+    "9_22": {
+      "PASS": true,
+      "N": 9,
+      "p": 11,
+      "K": 4,
+      "binary_low_words_checked": 27,
+      "parent_cuts": 252,
+      "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+      "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+    },
+    "9_26": {
+      "PASS": true,
+      "N": 9,
+      "p": 13,
+      "K": 4,
+      "binary_low_words_checked": 27,
+      "parent_cuts": 252,
+      "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+      "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+    },
+    "11_10": {
+      "PASS": true,
+      "N": 11,
+      "p": 5,
+      "K": 2,
+      "binary_low_words_checked": 66,
+      "parent_cuts": 924,
+      "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+      "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+    },
+    "11_14": {
+      "PASS": true,
+      "N": 11,
+      "p": 7,
+      "K": 2,
+      "binary_low_words_checked": 66,
+      "parent_cuts": 924,
+      "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+      "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+    },
+    "11_22": {
+      "PASS": true,
+      "N": 11,
+      "p": 11,
+      "K": 2,
+      "binary_low_words_checked": 66,
+      "parent_cuts": 924,
+      "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+      "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+    },
+    "11_26": {
+      "PASS": true,
+      "N": 11,
+      "p": 13,
+      "K": 2,
+      "binary_low_words_checked": 66,
+      "parent_cuts": 924,
+      "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+      "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+    }
+  },
+  "parents": {
+    "10": {
+      "PASS": true,
+      "p": 7,
+      "nu": 3,
+      "B": [
+        [
+          14,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          33,
+          25,
+          11,
+          8
+        ],
+        [
+          1,
+          8,
+          33,
+          25,
+          11
+        ],
+        [
+          1,
+          11,
+          8,
+          33,
+          25
+        ],
+        [
+          1,
+          25,
+          11,
+          8,
+          33
+        ]
+      ],
+      "graph": [
+        [
+          0,
+          1,
+          1,
+          1,
+          1,
+          6,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          5,
+          4,
+          5,
+          0,
+          4,
+          4,
+          5,
+          0
+        ],
+        [
+          1,
+          5,
+          0,
+          5,
+          4,
+          0,
+          0,
+          4,
+          4,
+          5
+        ],
+        [
+          1,
+          4,
+          5,
+          0,
+          5,
+          0,
+          5,
+          0,
+          4,
+          4
+        ],
+        [
+          1,
+          5,
+          4,
+          5,
+          0,
+          0,
+          4,
+          5,
+          0,
+          4
+        ],
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          6,
+          6,
+          6,
+          6
+        ],
+        [
+          0,
+          4,
+          0,
+          5,
+          4,
+          6,
+          0,
+          2,
+          3,
+          2
+        ],
+        [
+          0,
+          4,
+          4,
+          0,
+          5,
+          6,
+          2,
+          0,
+          2,
+          3
+        ],
+        [
+          0,
+          5,
+          4,
+          4,
+          0,
+          6,
+          3,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          5,
+          4,
+          4,
+          6,
+          2,
+          3,
+          2,
+          0
+        ]
+      ],
+      "minor_counts": {
+        "1": 25,
+        "2": 100,
+        "3": 100,
+        "4": 25,
+        "5": 1
+      },
+      "cut_count": 252,
+      "Fourier_mask": 0,
+      "removed_diagonal": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "12": {
+      "PASS": true,
+      "p": 7,
+      "nu": 3,
+      "B": [
+        [
+          47,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          30,
+          34,
+          31,
+          15,
+          46
+        ],
+        [
+          1,
+          46,
+          30,
+          34,
+          31,
+          15
+        ],
+        [
+          1,
+          15,
+          46,
+          30,
+          34,
+          31
+        ],
+        [
+          1,
+          31,
+          15,
+          46,
+          30,
+          34
+        ],
+        [
+          1,
+          34,
+          31,
+          15,
+          46,
+          30
+        ]
+      ],
+      "graph": [
+        [
+          0,
+          5,
+          5,
+          5,
+          5,
+          5,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          5,
+          2,
+          2,
+          5,
+          0,
+          3,
+          6,
+          2,
+          5,
+          0
+        ],
+        [
+          5,
+          5,
+          0,
+          5,
+          2,
+          2,
+          0,
+          0,
+          3,
+          6,
+          2,
+          5
+        ],
+        [
+          5,
+          2,
+          5,
+          0,
+          5,
+          2,
+          0,
+          5,
+          0,
+          3,
+          6,
+          2
+        ],
+        [
+          5,
+          2,
+          2,
+          5,
+          0,
+          5,
+          0,
+          2,
+          5,
+          0,
+          3,
+          6
+        ],
+        [
+          5,
+          5,
+          2,
+          2,
+          5,
+          0,
+          0,
+          6,
+          2,
+          5,
+          0,
+          3
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        [
+          0,
+          3,
+          0,
+          5,
+          2,
+          6,
+          2,
+          0,
+          2,
+          5,
+          5,
+          2
+        ],
+        [
+          0,
+          6,
+          3,
+          0,
+          5,
+          2,
+          2,
+          2,
+          0,
+          2,
+          5,
+          5
+        ],
+        [
+          0,
+          2,
+          6,
+          3,
+          0,
+          5,
+          2,
+          5,
+          2,
+          0,
+          2,
+          5
+        ],
+        [
+          0,
+          5,
+          2,
+          6,
+          3,
+          0,
+          2,
+          5,
+          5,
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          5,
+          2,
+          6,
+          3,
+          2,
+          2,
+          5,
+          5,
+          2,
+          0
+        ]
+      ],
+      "minor_counts": {
+        "1": 36,
+        "2": 225,
+        "3": 400,
+        "4": 225,
+        "5": 36,
+        "6": 1
+      },
+      "cut_count": 924,
+      "Fourier_mask": 0,
+      "removed_diagonal": [
+        4,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  },
+  "oriented_cuts": 4704
+}

@@ -1,0 +1,82 @@
+{
+  "9_10": {
+    "PASS": true,
+    "N": 9,
+    "p": 5,
+    "K": 4,
+    "binary_low_words_checked": 27,
+    "parent_cuts": 252,
+    "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+    "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+  },
+  "9_14": {
+    "PASS": true,
+    "N": 9,
+    "p": 7,
+    "K": 4,
+    "binary_low_words_checked": 27,
+    "parent_cuts": 252,
+    "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+    "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+  },
+  "9_22": {
+    "PASS": true,
+    "N": 9,
+    "p": 11,
+    "K": 4,
+    "binary_low_words_checked": 27,
+    "parent_cuts": 252,
+    "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+    "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+  },
+  "9_26": {
+    "PASS": true,
+    "N": 9,
+    "p": 13,
+    "K": 4,
+    "binary_low_words_checked": 27,
+    "parent_cuts": 252,
+    "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+    "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+  },
+  "11_10": {
+    "PASS": true,
+    "N": 11,
+    "p": 5,
+    "K": 2,
+    "binary_low_words_checked": 66,
+    "parent_cuts": 924,
+    "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+    "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+  },
+  "11_14": {
+    "PASS": true,
+    "N": 11,
+    "p": 7,
+    "K": 2,
+    "binary_low_words_checked": 66,
+    "parent_cuts": 924,
+    "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+    "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+  },
+  "11_22": {
+    "PASS": true,
+    "N": 11,
+    "p": 11,
+    "K": 2,
+    "binary_low_words_checked": 66,
+    "parent_cuts": 924,
+    "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+    "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+  },
+  "11_26": {
+    "PASS": true,
+    "N": 11,
+    "p": 13,
+    "K": 2,
+    "binary_low_words_checked": 66,
+    "parent_cuts": 924,
+    "normalization": "equal normalized orthogonal prime branches; 1/sqrt(K)",
+    "proof": "condition reference vertex 0; compare all reference+k-site blocks; binary Walsh cancellation; local digit p*b+y"
+  }
+}

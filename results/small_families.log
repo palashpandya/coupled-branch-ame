@@ -1,0 +1,10 @@
+[PASS] 9_10 252 oriented cuts, exact binary average, negative controls
+[PASS] 9_14 252 oriented cuts, exact binary average, negative controls
+[PASS] 9_22 252 oriented cuts, exact binary average, negative controls
+[PASS] 9_26 252 oriented cuts, exact binary average, negative controls
+[PASS] 11_10 924 oriented cuts, exact binary average, negative controls
+[PASS] 11_14 924 oriented cuts, exact binary average, negative controls
+[PASS] 11_22 924 oriented cuts, exact binary average, negative controls
+[PASS] 11_26 924 oriented cuts, exact binary average, negative controls
+
+[runner] exit=0 elapsed_seconds=0.253

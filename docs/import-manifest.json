@@ -202,6 +202,34 @@
       "source_sha256": "64b7b95c6295a7bdcc4102ad806266f56a2791ceb269a7ad7ddbd54c1ae93eb9",
       "packaged_sha256": "64b7b95c6295a7bdcc4102ad806266f56a2791ceb269a7ad7ddbd54c1ae93eb9",
       "adapted": false
+    },
+    {
+      "source_name": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_verify.py",
+      "destination": "coupled_ame/small_exact.py",
+      "source_sha256": "6b876efe88f87acf7be7585bcaa4b069914d16bb8b1f50ecf856bfb900ea298a",
+      "packaged_sha256": "6b876efe88f87acf7be7585bcaa4b069914d16bb8b1f50ecf856bfb900ea298a",
+      "adapted": false
+    },
+    {
+      "source_name": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_inputs/o1_external_spec.json",
+      "destination": "data/o1_external_spec.json",
+      "source_sha256": "4c390c2436552e3a7dd7c1e00c21ee68175622670162e91be813f2b4f4e1af56",
+      "packaged_sha256": "4c390c2436552e3a7dd7c1e00c21ee68175622670162e91be813f2b4f4e1af56",
+      "adapted": false
+    },
+    {
+      "source_name": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_parent_10_7_candidate.json",
+      "destination": "data/parent10_7.json",
+      "source_sha256": "e746b4432703a31ff7de16882c260dc3176b699874b0d6a29b1c9d11cb8a1523",
+      "packaged_sha256": "e746b4432703a31ff7de16882c260dc3176b699874b0d6a29b1c9d11cb8a1523",
+      "adapted": false
+    },
+    {
+      "source_name": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_parent_12_7_candidate.json",
+      "destination": "data/parent12_7.json",
+      "source_sha256": "e65650c5ea37777847c6fdfb73beba8cbff2d8c08d08ebc166044d0efcc40d6e",
+      "packaged_sha256": "e65650c5ea37777847c6fdfb73beba8cbff2d8c08d08ebc166044d0efcc40d6e",
+      "adapted": false
     }
   ],
   "adaptations": [

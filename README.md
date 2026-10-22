@@ -20,11 +20,15 @@ An AME(N,d) state is a pure state whose reductions to any floor(N/2) parties are
 Here a coherent sum pairs binary branches with conditioned prime-dimensional AME branches. The binary
 average supplies local uniformity and the prime factor removes interference between branch labels.
 
-The constructions give AME(13,2p), AME(15,2p) and AME(17,2p) for every prime p≥17, p≥11 and p≥67, respectively.
+The constructions give AME(N,2p) for N=9,11,13,15,17 and every prime p≥5,5,17,11,67, respectively.
+N9 and N11 retain Atlas’s K4 and Kitamura’s K2 binary branches; p5 uses Atlas’s parent and the
+Bevins–Bidav parent used by Kitamura. At p7 we supply explicit GF49 parents; p≥11 uses Cauchy,
+including the extended N11,p11 case.
 The fifteen-party family uses one rank8 binary ingredient with a GF121 Hermitian parent at p11,
 the HZ circle parent at p13, and Cauchy parents for p≥17. For N13 and N17, the thresholds
 are set by branch capacity K≤p (K16 and K64), not by the availability of prime parents.
-The stored original cells are (13,34), (13,38), (13,46), (15,22), (15,26), (15,34), (15,38), (15,46), (17,134).
+The eight N9/N11 cells at p5,7,11,13 are in `data/small_families_spec.json`.
+The nine stored N≥13 cells are (13,34), (13,38), (13,46), (15,22), (15,26), (15,34), (15,38), (15,46), (17,134).
 Branch isometries also give the cyclic subgroups in Table IV, including AME(15,62) and a C15 family
 for every prime p≡1 (mod 15).
 
@@ -34,7 +38,7 @@ and Hontarenko–Życzkowski supply parent/code constructions. Publication prior
 
 ## Results and how they are established
 
-Numbers and labels refer to the article draft of 21 October 2026. Full paths and evidence boundaries
+Numbers and labels refer to the article draft of 22 October 2026. Full paths and evidence boundaries
 are in [docs/CLAIM_MAP.md](docs/CLAIM_MAP.md). Verifier filenames below refer to `coupled_ame/`.
 **Exact** means finite integer/rational/finite-field/cyclotomic verification; analytic family statements
 also require the indicated written proof. **Numerical** means corroboration, not proof. **Cited** means
@@ -42,23 +46,23 @@ a written argument or external source: `inventory.py` only checks its catalogue/
 
 | # | Statement | Paper | Script | Status |
 |---|---|---|---|---|
-| 1 | Nine original cells are AME; 123,266 oriented parent cuts | Thm. I.1; Table II | `o3_verify.py`, `independent.py`, `reconstruct.py` | exact |
-| 2 | Every prime p≥17,11,67 in the three respective families; three parent constructions at N15 | Thm. I.1; Lem. IV.1 (`lem:cauchy`) | `reconstruct.py`, `inventory.py` | exact finite inputs; cited analytic Cauchy proof |
+| 1 | Seventeen cells are AME; 127,970 oriented parent cuts | Thm. I.1; Table II | `o3_verify.py`, `independent.py`, `reconstruct.py`, `small_families.py` | exact |
+| 2 | Every prime p≥5,5,17,11,67 for N9,11,13,15,17; three parent constructions at N15 | Thm. I.1; Lem. IV.1 (`lem:cauchy`) | `reconstruct.py`, `inventory.py` | exact finite inputs; cited analytic Cauchy proof |
 | 3 | Weighted coupling, conditioned-parent identity and stabilizer-projector criterion | Prop. II.1, Lem. II.2, Prop. III.1 | `o3_verify.py`, `inventory.py` | exact finite inputs; cited partial-trace/Pauli arguments |
 | 4 | Binary ranks16,8,64 and minimum stabilizer weights7,8,9; full enumerators and seeds | Prop. III.2; Eqs.(10)–(12),(A1)–(A3) | `o3_verify.py`, `reconstruct.py` | exact |
 | 5 | Cauchy and HZ circle parent graphs, all stored cut certificates | Sec. IV; Eq.(17) | `reconstruct.py` | exact; HZ formula independently implemented |
 | 6 | Arbitrary branch isometries preserve AME; matching condition βV=e^(iθ)V conjugate(α) | Prop. V.1; Eq.(20) | `sym1_verify.py`, `inventory.py` | exact finite realizations; cited algebraic argument |
 | 7 | Six nontrivial finite redesigns with C4,C6,C2,C2,C3,C2 | Prop. V.2; Table IV rows1–6 | `sym1_verify.py`, `permutation_cycles.py` | exact subgroup certificates |
 | 8 | C15 at(15,62); logical order3 and multiplicities(4,2,2); all primes p≡1 mod15 | Thm. V.3; Table IV row7; Eq.(C3) | `sym1_verify.py`, `rank_and_c15.py`, `inventory.py` | exact witness/action; cited all-primes orbit proof |
-| 9 | Full projective structured groups of the eight previously classified states (excluding15_22) | Prop. D.1; Eqs.(D1)–(D3) | `sym1_verify.py` | exact, with completeness reductions in `docs/sym1_notes.md`; restricted Clifford class only |
+| 9 | Full projective structured groups of the eight previously classified states (excluding15_22 and the N9/N11 additions) | Prop. D.1; Eqs.(D1)–(D3) | `sym1_verify.py` | exact, with completeness reductions in `docs/sym1_notes.md`; restricted Clifford class only |
 | 10 | Projector rank exclusions at N13,N15; optimal stabilizer ranks16,8 | Sec. VI; App. B | `o3_verify.py` | exact rational certificates |
-| 11 | N17: K22 excluded, K23 and K32 feasible enumerators; even-weight K32 excluded | Sec. VI; App. B | `o3_verify.py` | exact; no global threshold inferred, no state from feasibility |
+| 11 | N17: K22 excluded, K23 and K32 feasible enumerators; even-weight K32 excluded | Sec. VI; App. B | `o3_verify.py` | exact projector tests; general rank≥23 separately certified; no state from feasibility |
 | 12 | No weight9 one-generator extension of the specified N17 subgroup; 4,095 cosets | Sec. VI; App. B | `o3_verify.py` | exact, scoped to that subgroup |
-| 13 | Six-uniform thirteen-qubit density matrices have rank≥9, without a spectrum assumption | Prop. VI.1; Eqs.(B1)–(B7) | `rank_and_c15.py`, `farkas_symbolic.py` | exact, with written inequality derivation |
+| 13 | Arbitrary-spectrum half-uniform qubit rank≥9,8,23,19 at N13,15,17,19 | Prop. VI.1; Eqs.(B1)–(B7) | `general_rank.py`, `rank_and_c15.py`, `farkas_symbolic.py` | exact, with written inequality derivation |
 | 14 | Original N13 graph basis requires support≥16 and 16 divides equal-weight branch count | Sec. VI; Eq.(B8) | `o3_verify.py` | exact masks plus Fourier argument |
 | 15 | AME(14,13) parent available for a hypothetical binary rank9..13 ingredient | Sec. VI | `parent13.py` | exact parent; no AME(13,26) state supplied |
 | 16 | Strict all-cut branch capacity K≤p and exclusion of that mechanism at(13,10) | Sec. VI | `rank_and_c15.py`, `inventory.py` | exact rank certificate; cited entropy argument; no unrestricted nonexistence |
-| 17 | Binary marginal residuals on three deterministic cuts per stored N≤15 cell | App. A, corroboration only | `independent.py` | numerical; `--all-marginals` enables the slower exhaustive numerical mode |
+| 17 | Binary marginal residuals on three deterministic cuts per stored N≥13,N≤15 cell | App. A, corroboration only | `independent.py` | numerical; `--all-marginals` enables the slower exhaustive numerical mode |
 | 18 | Coupling lineage and binary AME background | Sec. I; Table I | `inventory.py` | cited; source links in `data/reference/README.md`, no Lean build |
 | 19 | Eventual existence for sufficiently large integer d at fixed N | App. E | `inventory.py` | cited Keevash/Helwig–Cui implication, no effective threshold |
 | 20 | Catalogue, data provenance and packaged-file integrity | App. A (availability) | `inventory.py` | exact file/catalogue checks; not a mathematical proof of cited results |
@@ -94,7 +98,7 @@ certifies the state and symmetry without floating-point diagonalization.
 ## Running
 
 Python **3.10 or newer** on Linux/macOS, numpy and sympy (the symmetry verifier uses Unix resource accounting). No Sage, scipy, solver, Lean, GPU or network is needed after
-installing dependencies. On Linux the reference run takes about **18 seconds**; exact timings and versions
+installing dependencies. On Linux the reference run takes about **20 seconds**; exact timings and versions
 are in [results/timings.txt](results/timings.txt) and [results/environment.txt](results/environment.txt).
 
 ```bash
@@ -116,8 +120,9 @@ optimization and limits numerical library threads to one. Scripts return nonzero
 
 `run_all.sh` rewrites every committed result log, the environment record, timings, and generated JSON
 summaries. Elapsed times and small floating-point residuals may vary; exact conclusions must agree.
-The independent implementation checks all 61,633 unoriented parent cuts and binary support constraints;
-its default numerical component checks first/middle/last cuts in lexicographic order for each N≤15 cell.
+For the nine N≥13 cells, the independent implementation checks 61,633 unoriented parent cuts and binary support constraints;
+small_families.py checks the additional 4,704 oriented cuts twice.
+its default numerical component checks first/middle/last cuts in lexicographic order for each original N13/N15 cell.
 No historical exhaustive numerical residual is presented as newly reproduced.
 
 ## Layout and provenance
@@ -178,3 +183,24 @@ previously recorded in the Huber–Wyderka table citing Grassl–Rötteler; this
 an explicit searched matrix and graph certificate, not a new parent existence claim.
 `data/parent11_certificate.json` contains the matrix, graph conversion and negative control.
 The existing symmetry inventory covers the previous eight states only; 15_22 is unclassified.
+
+## R07 evidence and scope
+
+`small_families.py` ports the independent N01 acceptance code (`small_exact.py`), reconstructs the
+unchanged Atlas/Kitamura binary ingredients from `data/o1_external_spec.json`, replays every nonempty
+minor of the two GF49 matrices and their graph conversions, and checks all eight cells. A second
+determinant implementation checks all 4,704 new oriented cuts. Duplicate branch labels and zero
+parents are rejected. The finite certificates do not replace the analytic extended-Cauchy proof.
+
+`general_rank.py` rebuilds arbitrary-spectrum inequalities using Fraction arithmetic and replays
+`data/general_rank_certificates.json`. The four contradictions are −3328/492545,
+−2031120/18916487, −6528/6182327 and −16093152/697142701. Exact feasible enumerators at the
+next ranks are checked too; they are not quantum states. No scipy or solver is needed for replay.
+At N15 this makes p≥11 complete within the all-cut route. At N17 primes≤19 are excluded and
+primes23..61 remain unresolved here. These are not unrestricted AME nonexistence claims.
+
+The N7 discussion is analytic only: Steane K2 plus AME(8,p) works for primes≥5.
+The shadow exclusion of AME(8,3) does not decide whether a pure ((7,2,4))_3 code exists.
+No seven-site search is included. Literature-search scope and attribution are recorded in
+`docs/R07-literature.md`; no priority claim is made. Support exports still cover the nine N≥13
+states, and symmetry classification still covers the previous eight states only.

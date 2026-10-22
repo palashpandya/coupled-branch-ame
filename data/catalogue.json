@@ -1,8 +1,20 @@
 {
   "schema_version": 2,
   "status": "exact_certificates_packaged",
-  "article_draft": "R06, 2026-10-21",
+  "article_draft": "R07, 2026-10-22",
   "infinite_families": [
+    {
+      "N": 9,
+      "prime_threshold": 5,
+      "K": 4,
+      "scope": "Known p5, explicit GF49 p7, Cauchy/extended Cauchy p>=11"
+    },
+    {
+      "N": 11,
+      "prime_threshold": 5,
+      "K": 2,
+      "scope": "Known p5, explicit GF49 p7, Cauchy/extended Cauchy p>=11"
+    },
     {
       "N": 13,
       "prime_threshold": 17,
@@ -23,6 +35,70 @@
     }
   ],
   "finite_examples": [
+    {
+      "key": "9_10",
+      "N": 9,
+      "d": 10,
+      "p": 5,
+      "K": 4,
+      "verifier": "coupled_ame/small_families.py"
+    },
+    {
+      "key": "9_14",
+      "N": 9,
+      "d": 14,
+      "p": 7,
+      "K": 4,
+      "verifier": "coupled_ame/small_families.py"
+    },
+    {
+      "key": "9_22",
+      "N": 9,
+      "d": 22,
+      "p": 11,
+      "K": 4,
+      "verifier": "coupled_ame/small_families.py"
+    },
+    {
+      "key": "9_26",
+      "N": 9,
+      "d": 26,
+      "p": 13,
+      "K": 4,
+      "verifier": "coupled_ame/small_families.py"
+    },
+    {
+      "key": "11_10",
+      "N": 11,
+      "d": 10,
+      "p": 5,
+      "K": 2,
+      "verifier": "coupled_ame/small_families.py"
+    },
+    {
+      "key": "11_14",
+      "N": 11,
+      "d": 14,
+      "p": 7,
+      "K": 2,
+      "verifier": "coupled_ame/small_families.py"
+    },
+    {
+      "key": "11_22",
+      "N": 11,
+      "d": 22,
+      "p": 11,
+      "K": 2,
+      "verifier": "coupled_ame/small_families.py"
+    },
+    {
+      "key": "11_26",
+      "N": 11,
+      "d": 26,
+      "p": 13,
+      "K": 2,
+      "verifier": "coupled_ame/small_families.py"
+    },
     {
       "key": "13_34",
       "N": 13,

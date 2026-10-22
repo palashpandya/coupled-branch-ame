@@ -1,0 +1,30 @@
+[
+  {
+    "N": 13,
+    "minimum_rank": 9,
+    "value": "-3328/492545",
+    "status": "PASS",
+    "next_rank": "exact LP-feasible point; no state asserted"
+  },
+  {
+    "N": 15,
+    "minimum_rank": 8,
+    "value": "-2031120/18916487",
+    "status": "PASS",
+    "next_rank": "exact LP-feasible point; no state asserted"
+  },
+  {
+    "N": 17,
+    "minimum_rank": 23,
+    "value": "-6528/6182327",
+    "status": "PASS",
+    "next_rank": "exact LP-feasible point; no state asserted"
+  },
+  {
+    "N": 19,
+    "minimum_rank": 19,
+    "value": "-16093152/697142701",
+    "status": "PASS",
+    "next_rank": "exact LP-feasible point; no state asserted"
+  }
+]

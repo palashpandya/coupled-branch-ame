@@ -349,6 +349,6 @@
     "duplicate_label_rejected": true,
     "zero_parent_rejected": true
   },
-  "wall_seconds": 6.480388441006653,
+  "wall_seconds": 5.609714613063261,
   "implementation": "standard-library independent arithmetic, no constructor imports"
 }

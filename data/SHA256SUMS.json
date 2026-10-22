@@ -1,5 +1,5 @@
 {
-  "catalogue.json": "f88fb8f2ab2a2ab7989ba62d865bfd4a2ca5872d9df5f2b388313c05faaf9ed1",
+  "catalogue.json": "c1c0fc42ae40e7a7d948fb2babb4ce465e35b50f291583e33b1ee76428271c71",
   "o3_binary_certificates.json": "4c6637cde767b1fa4fff99d130372214c74bac1912ac44d625f21b496c1834d2",
   "o3_circle13_certificate.json": "7ceb5291ac12128f9bfa793173d9b1e93925329ff345bcefa9f81370efcc41ab",
   "o3_construction_certificates.json": "38ba1916547156dcc70c68f565f4ea715140f3efddb05f86c393cf935650cbfb",
@@ -17,5 +17,11 @@
   "sym1_groups.json": "f47b621738064ccc4e527a0fd2a2a904e3ae4c9ae4d128e8564569900fbdcd5d",
   "sym1_parent_results.json": "90277e889650a25c01c717a136568ab898cbc1401cf86f1906982c604a105e12",
   "sym1_symmetry_generators.json": "b3abb8ec1bc8619d7eac2288c59d205bcef4c24806ac993051dddcb97c71a1da",
-  "parent11_certificate.json": "64b7b95c6295a7bdcc4102ad806266f56a2791ceb269a7ad7ddbd54c1ae93eb9"
+  "parent11_certificate.json": "64b7b95c6295a7bdcc4102ad806266f56a2791ceb269a7ad7ddbd54c1ae93eb9",
+  "parent10_7.json": "e746b4432703a31ff7de16882c260dc3176b699874b0d6a29b1c9d11cb8a1523",
+  "o1_external_spec.json": "4c390c2436552e3a7dd7c1e00c21ee68175622670162e91be813f2b4f4e1af56",
+  "small_families_spec.json": "a4e9f900a4d5ca4a91c84734290a4dd739d04fa74f17977ccf5ca648c7ce66ce",
+  "small_families_certificates.json": "f952682737303f372b38aceb47d10c3c929f10d471f638dd77d5c77cd629b484",
+  "parent12_7.json": "e65650c5ea37777847c6fdfb73beba8cbff2d8c08d08ebc166044d0efcc40d6e",
+  "general_rank_certificates.json": "3287b04985519ae831677022db51b052184a7c7c582390a25cc1c81df7d5dff9"
 }
