@@ -1,83 +1,83 @@
 {
   "inputs": [
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_11_11_spec.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_11_11_spec.json",
       "sha256": "e4dada2c2e6f728d46587bbc9b5ed5a5dbdf5a680888cca7e471e1791f01307a"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_11_13_spec.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_11_13_spec.json",
       "sha256": "b84613c2c33d4b1641fd3588b201d4d399f01459cac1d9e3fecfcc898d6e0ff0"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_11_5_spec.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_11_5_spec.json",
       "sha256": "bb62abcb7cdb983c5a78cef7b48f463942980dc2414ae604b9fe4d42de03f772"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_11_7_spec.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_11_7_spec.json",
       "sha256": "3ccab8475363b230c0254ecdefb67588df37c8c2f70a800d14e05657c83f9da3"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_9_11_spec.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_9_11_spec.json",
       "sha256": "ced7a57f39c9ca62feb1623840430bb068f9d6bf140de5ca3766a6ab979154e7"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_9_13_spec.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_9_13_spec.json",
       "sha256": "04b71043f054d67a01e0d8b39adc4e072ada3f8134b96ddaa6d9186c714aaffc"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_9_5_spec.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_9_5_spec.json",
       "sha256": "f51b4410edcb4fa2b5fff0c919596b99693e055313907e92032386ce34459a40"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_9_7_spec.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_9_7_spec.json",
       "sha256": "9afd7a992a5f5cb6842a102be3137af5db19f82e8b81c30daed3fd1252a8d6d7"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_11_11_verified.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_11_11_verified.json",
       "sha256": "990416abf52f2de1331fd819e568659ac1cc736246b0282bd4ef455e55b26997"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_11_13_verified.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_11_13_verified.json",
       "sha256": "5b74b6b167dd9249701779b32c93cc46b6b829dec5c316b2be06dd6bb7430ecf"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_11_5_verified.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_11_5_verified.json",
       "sha256": "131cd99564b32c4c2b6d35d84a7904910e3bf845c5e8c92bfd9de122da4ced92"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_11_7_verified.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_11_7_verified.json",
       "sha256": "f3cf0b22761c42e532a4cd742abdd5de43fcd674dac928c81784575da981c162"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_9_11_verified.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_9_11_verified.json",
       "sha256": "4edf2463a799b7d67d0e520d69751b2a66f4b8ec21c812a295a5131b5c1cbcfb"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_9_13_verified.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_9_13_verified.json",
       "sha256": "314bd1bf5a4129e3fc06e5d9cb73e1dc786034cb176917283d5a0a9ca9d210a1"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_9_5_verified.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_9_5_verified.json",
       "sha256": "dec716ff2c759af60d0037ebca61cfe6472eb98ada6bde4e9acc23865e0ca998"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_9_7_verified.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_9_7_verified.json",
       "sha256": "eb0aeb97367f50991f94e6b818cc09633fd406b967435bd00a56fc6594e2f18f"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/claude/LITERATURE_N9_N11.md",
+      "source": "workspace:research/lambda13_20261021/claude/LITERATURE_N9_N11.md",
       "sha256": "bf3cd48305d0378a6cded7d5497ddc4c9348ee1adfcd4e22053aafea42e9b185"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/lambda13_20261021/n01_results/n01_families_complete.json",
+      "source": "workspace:research/lambda13_20261021/n01_results/n01_families_complete.json",
       "sha256": "d5aa6afde906cc5193f3f5b399bc9234f6ecd53f48fb90d6e90c47c2c13dd7d7"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/ame1522_20261021/claude/general_rank_exact.py",
+      "source": "workspace:research/ame1522_20261021/claude/general_rank_exact.py",
       "sha256": "dba471c09f03bda3fccdad117f9d4087b10d3504cdc4bfac76399555d6308664"
     },
     {
-      "source": "/home/palash/repos/lumi-test-grant/research/odd_n_lumi_20261019/claude_explore/general_lp_exact.py",
+      "source": "workspace:research/odd_n_lumi_20261019/claude_explore/general_lp_exact.py",
       "sha256": "09969d69707a07dfe4c0c3219f8353d240428242d6318d62588ac02629e25be1"
     }
   ],
