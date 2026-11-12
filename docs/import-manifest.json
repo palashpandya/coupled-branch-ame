@@ -128,8 +128,10 @@
       "source_name": "o4_algebraic_notes.md",
       "destination": "docs/o4_algebraic_notes.md",
       "source_sha256": "1c0f68027c293c1da42ff12edc9fa36fa79dd78974ff99c52c50dfbc3a875bb6",
-      "packaged_sha256": "161f4a2d77d11445a327964621d9d272d4998bcc417fad6efbe0a9dd89d10a94",
-      "adapted": true
+      "packaged_sha256": "86c13206c6e7d81037375b5bea8145f8bfa3476cdab622f3b3393a46359db03b",
+      "adapted": true,
+      "previous_packaged_sha256": "161f4a2d77d11445a327964621d9d272d4998bcc417fad6efbe0a9dd89d10a94",
+      "adaptation": "Add self-contained nine-qubit arbitrary-spectrum rank certificate for Appendix F.3; verify against original N04 research rows."
     },
     {
       "source_name": "o3_verify.py",

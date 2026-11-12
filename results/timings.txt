@@ -1,18 +1,18 @@
-o3_verify: exit=0, seconds=5.579
-sym1_verify: exit=0, seconds=8.646
-independent: exit=0, seconds=1.779
-rank_and_c15: exit=0, seconds=0.028
-farkas_symbolic: exit=0, seconds=1.194
-permutation_cycles: exit=0, seconds=0.023
+o3_verify: exit=0, seconds=6.037
+sym1_verify: exit=0, seconds=8.618
+independent: exit=0, seconds=1.787
+rank_and_c15: exit=0, seconds=0.030
+farkas_symbolic: exit=0, seconds=1.223
+permutation_cycles: exit=0, seconds=0.019
 parent13: exit=0, seconds=0.072
-reconstruct: exit=0, seconds=2.385
-support: exit=0, seconds=0.277
-small_families: exit=0, seconds=0.248
-general_rank: exit=0, seconds=0.042
-n7: exit=0, seconds=0.334
-prime_powers: exit=0, seconds=1.366
-prime_powers_independent: exit=0, seconds=0.638
-product_classification: exit=0, seconds=0.025
-kitamura96: exit=0, seconds=0.298
-inventory: exit=0, seconds=0.047
-total_seconds=22.981
+reconstruct: exit=0, seconds=2.398
+support: exit=0, seconds=0.283
+small_families: exit=0, seconds=0.272
+general_rank: exit=0, seconds=0.048
+n7: exit=0, seconds=0.338
+prime_powers: exit=0, seconds=1.473
+prime_powers_independent: exit=0, seconds=0.688
+product_classification: exit=0, seconds=0.028
+kitamura96: exit=0, seconds=0.061
+inventory: exit=0, seconds=0.039
+total_seconds=23.417

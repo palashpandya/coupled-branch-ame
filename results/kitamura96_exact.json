@@ -2287,7 +2287,7 @@
       }
     ]
   },
-  "seconds": 176.03844947204925,
+  "seconds": 171.3382104029988,
   "arithmetic": "IEEE binary64 exact integer dot products: inputs r in[-2,2],s in[-1,1],7776 terms; intermediate bound<2^53. No transcendental rounding or tolerance acceptance.",
   "gap": "Z[w],w=exp(i*pi/3): |a+b*w|^2=a*a+a*b+b*b; a nonzero element has modulus>=1. Integer coefficients prove exact zero directly."
 }

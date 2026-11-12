@@ -5,4 +5,4 @@
 [PASS] 15_38 [3, 3, 3, 3, 3]
 [PASS] 15_46 [1, 2, 2, 2, 2, 2, 2, 2]
 
-[runner] exit=0 elapsed_seconds=0.023
+[runner] exit=0 elapsed_seconds=0.019

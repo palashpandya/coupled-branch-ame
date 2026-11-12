@@ -3,4 +3,4 @@
 [PASS] 7_22 70 parent cuts, 35 independent determinants and three negative controls
 [PASS] exact shadow replay; S(7,3)=-8/27; all-prime sign table for N=7..19
 
-[runner] exit=0 elapsed_seconds=0.334
+[runner] exit=0 elapsed_seconds=0.338

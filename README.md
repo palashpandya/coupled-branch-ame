@@ -13,8 +13,9 @@ Center for Theoretical Physics, Polish Academy of Sciences, Aleja Lotników 32/4
 Center for Quantum-Enabled Computing, Center for Theoretical Physics, Polish Academy of Sciences, Warsaw, Poland<br>
 Contact: ppandya@cft.edu.pl · GitHub [@palashpandya](https://github.com/palashpandya)
 
-This repository contains data and verification code, **not the manuscript**. Version **0.1 is a pre-release**;
-no public release, tag, permanent identifier or archive is asserted.
+This repository contains data and verification code, **not the manuscript**. Version **1.0** is the first tagged verification snapshot.
+Use the [v1.0 release](https://github.com/palashpandya/coupled-branch-ame/releases/tag/v1.0)
+to cite and reproduce this version.
 
 An AME(N,d) state is a pure state whose reductions to any floor(N/2) parties are maximally mixed.
 Here a coherent sum pairs binary branches with conditioned finite-field AME branches. The binary
@@ -58,7 +59,7 @@ a written argument or external source: `inventory.py` only checks its catalogue/
 | 10 | Projector rank exclusions at N13,N15; optimal stabilizer ranks16,8 | Sec. VI; App. B | `o3_verify.py` | exact rational certificates |
 | 11 | N17: K22 excluded, K23 and K32 feasible enumerators; even-weight K32 excluded | Sec. VI; App. B | `o3_verify.py` | exact projector tests; general rank≥23 separately certified; no state from feasibility |
 | 12 | No weight9 one-generator extension of the specified N17 subgroup; 4,095 cosets | Sec. VI; App. B | `o3_verify.py` | exact, scoped to that subgroup |
-| 13 | Arbitrary-spectrum half-uniform qubit rank≥9,8,23,19 at N13,15,17,19 | Prop. VI.1; Eqs.(B1)–(B7) | `general_rank.py`, `rank_and_c15.py`, `farkas_symbolic.py` | exact, with written inequality derivation |
+| 13 | Arbitrary-spectrum half-uniform qubit rank≥4,9,8,23,19 at N9,13,15,17,19 | Prop. VI.1; Eqs.(B1)–(B7) | `general_rank.py`, `rank_and_c15.py`, `farkas_symbolic.py` | exact, with written inequality derivation |
 | 14 | Original N13 graph basis requires support≥16 and 16 divides equal-weight branch count | Sec. VI; Eq.(B8) | `o3_verify.py` | exact masks plus Fourier argument |
 | 15 | AME(14,13) parent available for a hypothetical binary rank9..13 ingredient | Sec. VI | `parent13.py` | exact parent; no AME(13,26) state supplied |
 | 16 | Strict all-cut branch capacity K≤p and exclusion of that mechanism at(13,10) | Sec. VI | `rank_and_c15.py`, `inventory.py` | exact rank certificate; cited entropy argument; no unrestricted nonexistence |
@@ -164,9 +165,9 @@ Please cite the article when published and this repository:
 ```bibtex
 @misc{pandya2026coupledbranchame,
   author = {Palash Pandya},
-  title = {Companion code and data: coupled-branch AME states, version 0.1 (pre-release)},
+  title = {Companion code and data: coupled-branch AME states, version 1.0},
   year = {2026},
-  howpublished = {\url{https://github.com/palashpandya/coupled-branch-ame}}
+  howpublished = {\url{https://github.com/palashpandya/coupled-branch-ame/releases/tag/v1.0}}
 }
 ```
 
@@ -176,7 +177,7 @@ are credited separately; no ownership over those results is claimed.
 
 Codex and Claude assisted in development, mathematical checking and documentation. Computational
 certificates have explicit scopes; neither AI assistance nor successful execution replaces review of
-the analytic arguments. This pre-release does not claim a completed human publication review.
+the analytic arguments. This software release does not claim a completed human publication review.
 
 ## Reproduce the article graphics
 
@@ -207,9 +208,11 @@ determinant implementation checks all 4,704 new oriented cuts. Duplicate branch 
 parents are rejected. The finite certificates do not replace the analytic extended-Cauchy proof.
 
 `general_rank.py` rebuilds arbitrary-spectrum inequalities using Fraction arithmetic and replays
-`data/general_rank_certificates.json`. The four contradictions are −3328/492545,
+`data/general_rank_certificates.json`. The five contradictions are −288/5473, −3328/492545,
 −2031120/18916487, −6528/6182327 and −16093152/697142701. Exact feasible enumerators at the
 next ranks are checked too; they are not quantum states. No scipy or solver is needed for replay.
+The self-contained nine-qubit certificate for Appendix F.3 is written out in
+[docs/o4_algebraic_notes.md](docs/o4_algebraic_notes.md).
 At N15 this makes p≥11 complete within the all-cut route. At N17 primes≤19 are excluded and
 primes23..61 remain unresolved here. These are not unrestricted AME nonexistence claims.
 
